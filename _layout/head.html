@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {{if hasmath}} {{insert head_katex.html }}     {{end}}
+  {{if hascode}} {{insert head_highlight.html }}   {{end}}
+  <link rel="stylesheet" href="/css/styles.css">
+  <!-- <link rel="stylesheet" href="/css/basic.css"> -->
+  <link rel="icon" href="/assets/favicon.png">
+  {{isdef title}} <title>{{fill title}}</title>  {{end}}
+</head>
+<body class="wrapper">
+  {{insert header.html}}
+  {{insert navigation.html}}
+
+  <main>
+
+    {{ isnotpage index.html }}
+      <article>
+    {{ end }}
+
+    {{ ispage posts/* }}
+        {{ insert post.html }}
+    {{ end }}
+<!-- Content appended here -->
