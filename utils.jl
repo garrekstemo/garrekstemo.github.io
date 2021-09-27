@@ -69,7 +69,7 @@ end
 
 function hfun_recentposts()
   curyear = Dates.Year(Dates.today()).value
-  ntofind = 2
+  ntofind = 1
   nfound  = 0
   recent  = Vector{Pair{String,Date}}(undef, ntofind)
   for year in curyear:-1:2020
