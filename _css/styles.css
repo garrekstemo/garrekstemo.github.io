@@ -163,7 +163,6 @@ figcaption {
 	font-size: 0.85em;
 }
 
-
 footer {
 	grid-area: footer;
 	margin: 2em 0;
@@ -171,6 +170,7 @@ footer {
 	padding-left: 2em;
 	display: block;
 	text-align: center;
+	font-size: 0.8em;
 }
 
 /* ----------------------------------------------------------------------- */
@@ -212,10 +212,15 @@ footer {
 	text-align: left;
 }
 
+#footer {
+	font-size: 1em;
+}
+
 
 /* ----------------------------------------------------------------------- */
 /* 						Color settings									   */
 /* ----------------------------------------------------------------------- */
+
 @media (prefers-color-scheme: dark) {
 	* {
 		background-color: #15252b;
@@ -244,7 +249,8 @@ footer {
 
 	nav a { color: #e8e8e8; }
 	nav a:hover { color: #3498d8; }
-	figcaption { color: #959595; }
+	footer { color: #818181 }
+	figcaption { color: #e8e8e8; }
 	#listessays a {
 		color: #e8e8e8;
 		text-decoration: none;
@@ -262,7 +268,7 @@ footer {
 }
 
 @media (prefers-color-scheme: light) {
-	* { background-color: #faf9f6 }
+	* { background-color: #fffbf7 }
 	body { color: #202020; }
 	h1 { color: #000; }
 	h2 { color: #575757; }
@@ -288,18 +294,20 @@ footer {
 		text-decoration-color: #1795cc;
 	}
 	
-	nav { color: #5c5c5c; }
-	nav a { color: #395a68; }
+	nav { color: #0d5f83; }
+	nav a { color: #0d5f83; }
 	nav a:hover {
-		color: #0d5f83;
-		text-decoration-color: #0d5f83;
+		color: #1795cc;
+		text-decoration-color: #1795cc;
 		text-decoration-thickness: 0.05em;
-		text-underline-offset: 0.25em;}
+		text-underline-offset: 0.25em;
+	}
+	footer { color: #818181 }
 
 	figcaption{color: #555;}
 	
 	.permalink {
-		color: #395a68;}
+		color: #0d5f83;}
 	
 	#listessays li {
 		color: #000;

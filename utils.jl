@@ -66,6 +66,12 @@ function hfun_listposts()
     return r
 end
 
+function hfun_insertmd(params)
+    rpath = params[1]
+    fullpath = joinpath(Franklin.path(:folder), rpath)
+    isfile(fullpath) || return ""
+    return read(fullpath, String)
+end
 
 function hfun_recentposts()
   curyear = Dates.Year(Dates.today()).value
