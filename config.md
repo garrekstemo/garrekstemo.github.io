@@ -1,22 +1,13 @@
-<!--
-Add here global page variables to use throughout your website.
--->
-+++
-author = "Garrek Stemo"
-mintoclevel = 2
+@def website_title = "Garrek.org"
+@def website_descr = "Personal website of Garrek Stemo, PhD candidate in chemical physics at Nara Institute of Science and Technology."
 
-# Add here files or directories that should be ignored by Franklin, otherwise
-# these files might be copied and, if markdown, processed by Franklin which
-# you might not want. Indicate directories by ending the name with a `/`.
-# Base files such as LICENSE.md and README.md are ignored by default.
-ignore = ["node_modules/"]
+@def website_url = "https://garrek.org"
 
-# RSS (the website_{title, descr, url} must be defined to get RSS)
-generate_rss = true
-website_title = "Garrek.org"
-website_descr = "Personal website of Garrek Stemo, PhD candidate in chemical physics at Nara Institute of Science and Technology."
-website_url   = "https://garrek.org"
-+++
+@def author = "Garrek Stemo"
+
+@def mintoclevel = 2
+
+@def ignore = ["node_modules/", "franklin", "franklin.pub"]
 
 <!--
 Add here global latex commands to use throughout your pages.
