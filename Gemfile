@@ -1,8 +1,9 @@
 source "https://rubygems.org"
 
 
-gem "jekyll"
+gem "jekyll", "~> 4"
 gem "webrick", "~> 1.7"
+gem "kramdown-parser-gfm"
 # gem "github-pages", "~> 227", group: :jekyll_plugins
 
 group :jekyll_plugins do
