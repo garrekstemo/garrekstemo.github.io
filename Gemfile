@@ -1,13 +1,12 @@
 source "https://rubygems.org"
 
-
-gem "jekyll", "~> 4"
-gem "webrick", "~> 1.7"
+gem "jekyll"
+gem "webrick"
 gem "kramdown-parser-gfm"
 # gem "github-pages", "~> 227", group: :jekyll_plugins
 
 group :jekyll_plugins do
-    gem "jekyll-feed", "~> 0.15"
+    gem "jekyll-feed"
 end
 
 
