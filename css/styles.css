@@ -1,0 +1,411 @@
+/* ----------------------------------------------------------------------- */
+/* 						Site Structure									   */
+/* ----------------------------------------------------------------------- */
+
+/* Default: mobile layout */
+.wrapper {
+	display: grid;
+	gap: 20px;
+	grid-template-areas:
+		"header"
+		"nav"
+		"content"
+		"footer";
+}
+
+/* For larger screens */
+@media (min-width: 640px) {
+	.wrapper {
+		grid-template-columns: 1fr 2fr;
+		grid-template-areas:
+			".        header"
+			"nav      content"
+			"footer   footer";
+		box-sizing: border-box;
+		
+	}
+	main {
+		padding-right: 1.5em;
+	}
+	article {
+		padding-top: 1em;
+	}
+	
+	nav {
+		padding-top: 1em;
+		padding-right: 1.5em;
+		text-align: right;
+	}
+	nav li {
+		display: block;
+		text-align: right;
+		}
+}
+
+/* ----------------------------------------------------------------------- */
+
+.main-head {
+	grid-area: header;
+}
+
+.permalink {
+	font-family: "Apple Symbols", "Menlo";
+	font-size: 1em;
+	font-weight: normal;
+    font-style:normal;
+	text-decoration: none;
+}
+
+/* Site navigation */
+nav {
+	grid-area: nav;
+    padding-top: 5px; /* align with page title */
+    padding-right: 2em;
+	margin-left: -2em;
+	text-align: left;
+}
+
+nav li {
+	font-family: Helvetica, "Helvetica Neue", Verdana, sans-serif;
+    font-size: 1.25em;
+	display: block;
+	list-style: none;
+}
+nav a {
+	text-decoration: none;
+}
+nav a:hover {
+	text-decoration: underline;
+}
+
+body {
+	font-family: "Libre-Baskerville", "Georgia", "Times New Roman", serif;
+	font-size: 1em;
+	line-height: 1.6;
+}
+
+main {
+	grid-area: content;
+	max-width: 640px;
+}
+
+article {
+	max-width: 640px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Helvetica, "Helvetica Neue", Verdana, sans-serif;
+}
+
+h1 {
+	font-size: 2em;
+	font-weight: 700;
+    margin-top: 0;
+}
+h2 {
+	font-size: 1.5em;
+	margin-bottom: 0;
+	line-height: 1.25;
+	font-weight: 500;
+}
+h3 {
+	font-size: 1.25em;
+	font-weight: 600;
+	margin-top: 2em;
+	margin-bottom: 1em;
+}
+
+/* Datelines go under article headers */
+.dateline {
+    font-family: "Libre-Baskerville", "Georgia", "Times New Roman", Times, serif;
+    font-size: 1em;
+    font-style: italic;
+    font-weight: normal;
+    margin-top: 1em;
+}
+
+a:hover {
+	text-decoration: none;
+	text-underline-offset: 0.2em;
+	text-decoration-thickness: 0.03875em;
+	text-underline-offset: 0.15em;
+}
+
+h1 a, h2 a, h3 a {
+	text-decoration: none;
+}
+h1 a:hover, h1 a:hover, h3 a:hover {
+	text-decoration: none;
+/* 	text-decoration-thickness: 0.03875em; */
+}
+
+/* Link articles */
+article.link header h2 a,
+article.link header h2 a:active,
+article.link header h2 a:visited {
+	text-decoration: underline;
+}
+
+div[role="doc-endnotes"] {
+	font-family: "Apple Symbols", Verdana, sans-serif}
+
+
+hr {
+    border: 1px;
+    border-style: solid;
+    border-color: #b0b0b0;
+    width: 50%;
+    outline: none;
+    margin-top: 4em;
+    margin-bottom: 4em;
+    position: relative;
+}
+
+.ref {
+    border: 1px solid;
+    border-color:#3499d889;
+    width: 30%;
+    outline: none;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    margin-left: 0;
+
+}
+
+/* ----------------------------------------------------------------------- */
+/* 						Figures and Images								   */
+/* ----------------------------------------------------------------------- */
+
+img, figure {
+	max-width: 100%;
+}
+
+figure {
+	padding: 5px;
+	margin-bottom: 0.5em;
+}
+
+figure.right {
+	float: right;
+	margin-left: 1em;
+	margin-right: 0;
+	margin-top: 0;
+	max-width: 33.3%;
+	}
+	
+figcaption {
+	font-family: Helvetica, "HelveticaNeue", Verdana, sans-serif;
+	text-align: left;
+	font-size: 0.85em;
+}
+
+footer {
+	grid-area: footer;
+	margin: 2em 0;
+	padding-right: 2em;
+	padding-left: 2em;
+	display: block;
+	text-align: center;
+	font-size: 0.8em;
+}
+
+/* ----------------------------------------------------------------------- */
+/* 						id Definitions									   */
+/* ----------------------------------------------------------------------- */
+
+#listessays li {
+	list-style-type: none;
+}
+#listessays a {
+	text-decoration: none;
+}
+#listessays a:hover {
+	text-decoration: underline;
+}
+
+/* Site Mast */
+#masthead {
+	text-align: left;
+}
+#masthead h1 {
+	font-weight: 400;
+	font-size: 2em;
+	margin-top: .25em;
+	padding-top: .5em;
+	margin-bottom: .25em;
+
+}
+#masthead h1 a,
+#masthead h1 a:active,
+#masthead h1 a:visited {
+	text-decoration: none;
+}
+
+#masthead p { margin: 0; padding: 0;}
+
+#description {
+	font-family: Helvetica, "Helvetica Neue", Verdana, sans-serif;
+	text-align: left;
+}
+
+
+/* ----------------------------------------------------------------------- */
+/* 						Color settings									   */
+/* ----------------------------------------------------------------------- */
+
+@media (prefers-color-scheme: dark) {
+	* {
+		background-color: #15252b;
+	}
+	body {
+		color: #d0d0d0;
+	}
+	h1, h2, h3, h4, h5, h6 {
+		color: #b0b0b0;
+	}
+	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+		color: currentColor;
+	}
+	
+	h1 a:hover, h2 a:hover, h3 a:hover {
+		color: #3498d8;
+	}
+	
+	a {
+		color: #3498d8;
+		text-decoration-color: #3498d8;
+	}
+	a:hover {
+		color: #15739d;
+	}
+
+	nav a { color: #e8e8e8; }
+	nav a:hover { color: #3498d8; }
+	footer { color: #818181 }
+	figcaption { color: #e8e8e8; }
+
+    .permalink {
+		color: #e8e8e8;}
+
+    a.permalink:hover {
+        color:#3498d8
+    }
+
+	#listessays a {
+		color: #e8e8e8;
+		text-decoration: none;
+	}
+	#listessays a:hover { 
+		color: #3498d8;
+	}
+
+	#masthead h1 a,
+	#masthead h1 a:active,
+	#masthead h1 a:visited {
+		color: #e8e8e8;
+	}
+	#description { color: #818181; }
+
+    .dateline{ 
+        color:#e8e8e8;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+	* { background-color: #fffbf7 }
+	body { color: #202020; }
+	h1 { color: #000; }
+	h2 { color: #575757; }
+	h3 { color: #818181; }
+	h4 { color: #3b3b3b; }
+	
+	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+		color: currentColor;
+	}
+	
+	h1 a:hover, h1 a:hover, h3 a:hover, h6 a:hover {
+		color: #0d5f83;
+	}
+	
+	a {
+		color: #0d5f83;
+		text-decoration-color: #1a7b8e;
+	}	
+	a:hover {
+		color: #1795cc;
+		text-decoration-color: #1795cc;
+	}
+	
+	nav { color: #0d5f83; }
+	nav a { color: #0d5f83; }
+	nav a:hover {
+		color: #1795cc;
+		text-decoration-color: #1795cc;
+		text-decoration-thickness: 0.05em;
+		text-underline-offset: 0.25em;
+	}
+	footer { color: #818181 }
+
+	figcaption{color: #555;}
+	
+	.permalink {
+		color: #0d5f83;}
+
+    a.permalink:hover {
+        color:#1795cc
+    }
+	
+	#listessays li {
+		color: #000;
+	}
+	#listessays a { color: #000; }
+	#listessays a:hover { color: #0d5f83; }
+	#masthead h1 a,
+	#masthead h1 a:active,
+	#masthead h1 a:visited {
+		color: #000;
+	}
+	#description { color: #818181; }
+
+    .dateline{
+        color:#202020;
+    }
+}
+
+
+/* ----------------------------------------------------------------------- */
+/* 						    Font Faces      							   */
+/* ----------------------------------------------------------------------- */
+
+@font-face {
+    font-family: "Libre-Baskerville";
+    font-weight: 400;
+    font-style: normal;
+    src: local("Libre-Baskerville"), url(/assets/fonts/Libre-Baskerville/LibreBaskerville-Regular.otf) format("opentype");
+}
+@font-face {
+    font-family: "Libre-BaskervilleItalic";
+    font-weight: 400;
+    font-style: italic;
+    src: local("Libre-Baskerville"), url(/assets/fonts/Libre-Baskerville/LibreBaskerville-Italic.otf) format("opentype");
+}
+@font-face {
+    font-family: "Libre-BaskervilleBold";
+    font-style: bold;
+    src: local("Libre-Baskerville"), url(/assets/fonts/Libre-Baskerville/LibreBaskerville-Bold.otf) format("opentype");
+}
+
+/* 
+@font-face {
+    font-family: "SkolarPE";
+    font-weight: 400;
+    font-style: normal;
+    src: local("SkolarPE-Rg"), url(/assets/fonts/SkolarPETRIAL/SkolarPETRIAL-Rg.otf) format("opentype");
+}
+@font-face {
+    font-family: "SkolarPE-It";
+    font-weight: 400;
+    font-style: italic;
+    src: local("SkolarPE-It"), url(/assets/fonts/SkolarPETRIAL/SkolarPETRIAL-It.otf) format("opentype");
+} */
+

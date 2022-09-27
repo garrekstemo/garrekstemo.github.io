@@ -1,5 +1,0 @@
-+++
-title = "Garrek.org"
-+++
-
-{{ makefeed }}

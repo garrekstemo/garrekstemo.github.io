@@ -1,14 +1,15 @@
-+++
-title = "About"
-+++
+---
+layout: default
+title: About
+permalink: /about/
+---
 
 ## About
 
-~~~
 <figure class="right">
     <img src="/assets/images/about/small-profile.jpg" alt="Garrek Stemo"/>
 </figure>
-~~~
+
 
 I’m a PhD candidate at the [Nara Institute of Science and Technology](https://www.naist.jp/en) in Japan at the [Quantum Materials Science Laboratory](https://mswebs.naist.jp/LABs/optics/) researching interactions between light and matter vibrations in organic liquids. Under certain conditions, these interactions form “vibrational polaritons”, which are hybrid quasi-particles that have mixed material and photon properties — pretty cool. I use femtosecond laser spectroscopy (a type of laser with a very very short pulse width. You might even say it’s *[ultrashort](https://en.wikipedia.org/wiki/Ultrashort_pulse)*) to study what happens when molecules of different types couple to quantized light. I’m interested in how these systems evolve over very short time intervals after they are initially excited by a laser pulse. Vibrational polariton research is still pretty new, so it’s exciting any time there’s a new paper out.
 
