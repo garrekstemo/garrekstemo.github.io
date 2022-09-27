@@ -48,11 +48,11 @@
 	grid-area: header;
 }
 
-.permalink {
+.permalinkanchor {
 	font-family: "Apple Symbols", "Menlo";
-	font-size: 1em;
+	font-size: 1.2em;
 	font-weight: normal;
-    font-style:normal;
+    font-style: normal;
 	text-decoration: none;
 }
 
@@ -284,10 +284,10 @@ footer {
 	footer { color: #818181 }
 	figcaption { color: #e8e8e8; }
 
-    .permalink {
+    .permalinkanchor {
 		color: #e8e8e8;}
 
-    a.permalink:hover {
+    a.permalinkanchor:hover {
         color:#3498d8
     }
 
@@ -348,10 +348,10 @@ footer {
 
 	figcaption{color: #555;}
 	
-	.permalink {
+	.permalinkanchor {
 		color: #0d5f83;}
 
-    a.permalink:hover {
+    a.permalinkanchor:hover {
         color:#1795cc
     }
 	
