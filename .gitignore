@@ -2,6 +2,10 @@ _site/
 node_modules/
 package-lock.json
 
+### Jekyll ###
+.jekyll-cache
+.jekyll-metadata
+
 ### macOS ###
 # General
 .DS_Store
