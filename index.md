@@ -2,4 +2,4 @@
 title = "Garrek.org"
 +++
 
-{{recentposts}}
+{{ makefeed }}

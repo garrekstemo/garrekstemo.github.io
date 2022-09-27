@@ -73,6 +73,20 @@ function hfun_insertmd(params)
     return read(fullpath, String)
 end
 
+function hfun_makefeed()
+    postsdir = joinpath("posts", "2021", "08")
+    posts = readdir(postsdir)
+    ps = splitext(posts[1])[2]
+    surl = "posts/2021/08/$ps"
+    pubdate = pagevar(surl, :published)
+    auth = pagevar(surl, :author)
+    println(auth)
+    println(pubdate)
+    content = pagevar(surl, :fd_page_html)
+    println(content)
+    println(posts)
+end
+
 function hfun_recentposts()
   curyear = Dates.Year(Dates.today()).value
   ntofind = 1
@@ -113,7 +127,6 @@ function hfun_recentposts()
   title === nothing && (title = "Untitled")
       sdate = "$(day(date)) $(monthname(date)) $(year(date))"
       content = pagevar(surl, :fd_page_html)
-      println(content)
       write(io, """
             <article>
               <h2><a href="$url">$title</a>

@@ -9,5 +9,3 @@ that appears here, most of which is my commentary on the state of
 the scientific community and scientific results in my field.
 The best way to connect with me is on Twitter, 
 [@garrekstemo](https://twitter.com/garrekstemo).
-For more private correspondence, my email is [first name][lastname]
-at [icloud] dot [com].
