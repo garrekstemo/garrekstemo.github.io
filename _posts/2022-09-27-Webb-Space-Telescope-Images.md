@@ -1,0 +1,10 @@
+---
+layout: post
+title: "Webb Space Telescope Images"
+date:   2022-09-27
+permalink: https://webbtelescope.org
+---
+
+The modern news cycle is a periodic deluge. I don't get the sense that the James Webb Space Telescope launch has hit the public in the same way that the Hubble did. (Of course the Hubble was really the first telescope of its kind, and there is something to be said for being first). I can't help but keep going back to the Webb images and looking at them in awe, with a much better viewing experience on modern computer displays, unavailable to those seeing the Hubble images for the first time.
+
+[View Webb Space Telescope images](https://webbtelescope.org)
