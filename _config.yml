@@ -11,5 +11,5 @@ github_username:  garrekstemo
 plugins:
   - jekyll-feed
 
-exclude:
-  - _drafts/
+# exclude:
+  # - _drafts/
