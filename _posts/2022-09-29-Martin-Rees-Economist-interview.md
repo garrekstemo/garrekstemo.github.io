@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Babbage Podcast: How Science Can Save the World"
+title: "Martin Rees: How Science Can Save the World"
 date:   2022-09-29
 ---
 
