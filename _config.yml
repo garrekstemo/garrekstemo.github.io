@@ -12,6 +12,7 @@ plugins:
   - jekyll-feed
 
 timezone: JP
+future: true
 
 exclude:
   - _drafts/
