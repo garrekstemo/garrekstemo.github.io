@@ -10,3 +10,6 @@ github_username:  garrekstemo
 # Build settings
 plugins:
   - jekyll-feed
+
+exclude:
+  - _drafts/

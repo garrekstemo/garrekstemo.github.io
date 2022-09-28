@@ -1,3 +1,5 @@
+_drafts/
+
 node_modules/
 package-lock.json
 
@@ -15,7 +17,6 @@ _site/
 
 # Icon must end with two \r
 Icon
-
 
 # Thumbnails
 ._*
