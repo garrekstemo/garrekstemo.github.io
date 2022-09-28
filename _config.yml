@@ -11,5 +11,7 @@ github_username:  garrekstemo
 plugins:
   - jekyll-feed
 
+timezone: JP
+
 exclude:
   - _drafts/
