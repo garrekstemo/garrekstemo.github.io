@@ -24,4 +24,4 @@ How much this is a function of perverse publishing incentives, administrative hu
 I'm glad a prominent and highly respected figure in the science community is calling out the inefficiencies and problems in the way science is practiced.
 
 Listen on The Economist website: [How science can save the world](https://www.economist.com/podcasts/2022/09/20/how-science-can-save-the-world) \
-Listen on [Overcast podcast player](https://overcast.fm/+jFuIKsZ4).
+Listen on [Overcast podcast app](https://overcast.fm/+jFuIKsZ4).

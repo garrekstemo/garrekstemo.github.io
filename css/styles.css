@@ -84,6 +84,12 @@ body {
 	line-height: 1.6;
 }
 
+a {
+    text-underline-offset: 0.2em;
+	text-decoration-thickness: 0.06em;
+	text-underline-offset: 0.07em;
+}
+
 main {
 	grid-area: content;
 	max-width: 640px;
@@ -126,9 +132,6 @@ h3 {
 
 a:hover {
 	text-decoration: none;
-	text-underline-offset: 0.2em;
-	text-decoration-thickness: 0.03875em;
-	text-underline-offset: 0.15em;
 }
 
 h1 a, h2 a, h3 a {
@@ -145,6 +148,23 @@ article.link header h2 a:active,
 article.link header h2 a:visited {
 	text-decoration: underline;
 }
+
+blockquote {
+    font-style: italic;
+    width: 80%;
+    margin: 30px auto;
+    position: relative;
+    padding-left: 20px;
+    border-left: 2px solid;
+}
+
+/* blockquote::before {
+    content: "\201C";
+    font-size: 6em;
+    position: absolute;
+    left: -70px;
+    top: -40px;
+} */
 
 div[role="doc-endnotes"] {
 	font-family: "Apple Symbols", Verdana, sans-serif}
@@ -279,6 +299,10 @@ footer {
 		color: #15739d;
 	}
 
+    blockquote {
+        border-color: #3498d8;
+    }
+
 	nav a { color: #e8e8e8; }
 	nav a:hover { color: #3498d8; }
 	footer { color: #818181 }
@@ -335,6 +359,10 @@ footer {
 		color: #1795cc;
 		text-decoration-color: #1795cc;
 	}
+
+    blockquote {
+        border-color: #1795cc;
+    }
 	
 	nav { color: #0d5f83; }
 	nav a { color: #0d5f83; }
