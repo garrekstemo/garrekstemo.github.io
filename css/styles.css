@@ -4,13 +4,20 @@
 
 /* Default: mobile layout */
 .wrapper {
-	display: grid;
-	gap: 20px;
-	grid-template-areas:
-		"header"
-		/* "nav" */
-		"content"
-		"footer";
+    display: grid;
+    gap: 20px;
+    grid-template-areas:
+        "header"
+        /* "nav" */
+        "content"
+        "footer";
+}
+
+/* Hide left navigation for smaller screens */
+@media (max-width: 640px) {
+    nav {
+        display: none;
+    }
 }
 
 /* For larger screens */
