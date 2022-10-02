@@ -89,9 +89,14 @@
     transition: .1s;
 }
 .sidenav a {
-    padding: 8px 8px 8px 50px;
+    /* padding: 8px 8px 8px 50px; */
+    padding-left: 25px;
+    padding-top: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+
     text-decoration: none;
-    font-size: 25px;
+    font-size: 28px;
     font-family: Helvetica, "Helvetica Neue", Verdana, sans-serif;
     color: white;
     background-color: #0082c7;
@@ -112,14 +117,14 @@
 }
 
 .sidenav hr {
+    position: absolute;
     border: 1px;
     border-style: solid;
     border-color: #056baa;
     margin-top: 0.1em;
-    margin-bottom: 0.5em;
+    margin-left: 1em;
     width: 80%;
     outline: none;
-    position: relative;
 }
 
 body {
