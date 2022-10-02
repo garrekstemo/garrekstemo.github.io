@@ -8,7 +8,6 @@
     gap: 20px;
     grid-template-areas:
         "header"
-        /* "nav" */
         "content"
         "footer";
 }
@@ -53,6 +52,11 @@
     nav a {
             text-decoration: none;
         }
+    nav a:hover {
+        text-decoration: underline;
+        text-decoration-thickness: 0.07em;
+        text-underline-offset: 0.15em;
+    }
 }
 
 /* ----------------------------------------------------------------------- */
@@ -427,8 +431,8 @@ footer {
 	nav { color: #0082c7; }
 	nav a { color: #0082c7; }
 	nav a:hover {
-		color: #0082c7;
-		text-decoration-color: #0082c7;
+		color: #1cc5f9;
+		text-decoration-color: #0b95df;
 	}
 	footer { color: #818181 }
 
