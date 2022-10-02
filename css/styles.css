@@ -111,7 +111,6 @@
     position: relative;
 }
 
-
 body {
 	font-family: "Libre-Baskerville", "Georgia", "Times New Roman", serif;
 	font-size: 1em;
@@ -286,6 +285,7 @@ footer {
 /* Site Mast */
 #masthead {
 	text-align: left;
+    padding-top: 3em;
 }
 #masthead h1 {
 	font-weight: 400;
@@ -310,8 +310,8 @@ footer {
 
 #menu {
     position: absolute;
-    right: 100px;
-    top: 40px;
+    right: 50px;
+    top: 30px;
     cursor: pointer;
     font-family: Helvetica, "Helvetica Neue", Verdana, sans-serif;
     font-size: 1.5em;
