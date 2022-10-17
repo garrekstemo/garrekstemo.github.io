@@ -1,0 +1,22 @@
+---
+layout: post
+title: "The Structures of the Scientific Enterprise"
+date: 2022-10-17
+---
+
+Geoff Anders of Leverage Research, a non-profit that writes scientific papers without publishing them in peer-reviewed journals (so it seems), [writes in Palladium Magazine](https://www.palladiummag.com/2022/10/10/the-transformations-of-science/) a brief summary of the role of science through the ages. His overall theme is clear from the section headers. He sees science as going from largely an endeavor of wealthy individuals to one that obtained authority from the state. I quibble with parts of Anders's historical narrative, but there are some good ideas in his conclusion.
+
+I'm not sure how big of a phase "science as a public phenomenon" was. He makes it seems like science was a circus show in the 16th, 17th, and parts of the 18th century. I think this an exaggeration, but I'm not a science historian (and neither is he). Anders also relies too heavily on a single instance of science being used authoritatively (King Louis XVI's commission to investigate Franz Mesmer's methods of apparent hypnosis) to make the case that science had become broadly authoritative. This strikes me as a weak way to make the argument. I would be hesitant to say science has ever had the authority he seems to imply that it had. A massive influence? Definitely. A justification? Probably, and sometimes a scapegoat. But I wouldn't call it an "authority". I think if one were to use that word it needs a bit more context, which Anders does not provide.
+
+His section on science and the state overemphasizes military technologies and glosses over quality of life improvements that raised large parts of the global population out of abject poverty (see Bradford DeLong's excellent grand narrative, [*Slouching Towards Utopia*](https://www.basicbooks.com/titles/j-bradford-delong/slouching-towards-utopia/9780465019595/) published recently).
+
+The one area that I think Anders has something going for him is his conclusion. The scientific community is at some sort of crossroads in terms of funding and elements of how it is structured. I see a lot of complaints that funding for blue-sky ideas is drying up and there are reports that [hiring is becoming difficult](https://www.science.org/content/article/professors-struggle-recruit-postdocs-calls-structural-change-academia-intensify). Some of this likely has to do with how universities are funded &mdash; and that is a whole other can of worms.
+
+I like Anders's idea of splitting science into two camps: exploratory science and settled science. At first glance one might say that science *is* exploratory and that the settled part is taken care of by applied scientists and engineers, but I think Anders's argument is more subtle. He says that funding might be restructured so that exploratory science is decentralized and career tracks are split into "later-state" and "earlier-stage" science. I would take this idea further. First, by establishing an exploratory wing of science its mission will be to take big risks with the expectation of failure &mdash; and failures should be reported and praised. This wing would be analogous to the US's DARPA initiative.
+
+Second, a later-stage wing of science wouldn't have to feign novelty where none exists. They would be free to solidify existing science[^fn1_221017]. Maybe they can bundle a few studies from the exploratory stage and make that science robust, ready to pass the baton to the applied scientists and engineers.
+
+I think the separation into early-phase and late-phase science would be a boon for the scientific endeavor. It would strengthen the pipeline from basic science to societal improvements. It would also clarify the mission of any given scientific project. Having a later-stage project would carry just as much importance as an exploratory project within its domain, and exploratory labs would be free to try out pie-in-the-sky ideas without fear of blowback from funding agencies.
+
+
+[^fn1_221017]: I'm not sure how this has to do with Anders's idea of "don't trust the science". I think he is throwing a bunch of ideas together without a clear thread (what does decentralization get you besides being hip with the crypto crowd?), but there are some nuggets in here worth thinking about.
