@@ -24,12 +24,14 @@ That last point about sysimages is where I want to focus. Making a sysimage in V
 2. Make a new folder called `.vscode`
 3. Make a file called `JuliaSysimage.toml` in that folder
 4. Paste the following into that file
+
 ```
-[sysimage]
-exclude=[]   # Additional packages to be exlucded in the system image
-statements_files=[]  # Precompile statements files to be used, relative to the project folder
-execution_files=[] # Precompile execution files to be used, relative to the project folder
+ [sysimage]
+ exclude=[]   # Additional packages to be exlucded in the system image
+ statements_files=[]  # Precompile statements files to be used, relative to the project folder
+ execution_files=[] # Precompile execution files to be used, relative to the project folder
 ```
+
 5. Select `Tasks: Run Build Task` and then `select Julia: Build custom sysimage for current environment`    
 6. Check the `useCustomSysimage` setting in the Julia extension settings in VS Code
 7. Restart the Julia REPL. (Hit the trash can button and open a new REPL session from the Command Palette)
@@ -71,9 +73,14 @@ My Experiment Folder
 ```
 
 For the above example, I put
+
 ```
-execution_files = ["src/data_io.jl", "src/plotting_functions.jl", "src/analysis_functions.jl"]
+[sysimage]
+exclude=[]   # Additional packages to be exlucded in the system image
+statements_files=[]  # Precompile statements files to be used, relative to the project folder
+execution_files=[] # Precompile execution files to be used, relative to the project folder
 ```
+
 in the `JuliaSysimage.toml` file. As long as I don't change these files, their functions load instantly. The functions in these files are used in my `lab_notebook` files with an `include()` statement at the top (e.g. `include("plotting_functions.jl")`). For example, I have custom plotting functions and themes that make an interactive grid of plots with toggles and settings so I can look at and compare data exactly the way I want. Recreating the sysimage a couple of times a month (or even once a week) is not a big deal compared to the time savings I get every day.
 
 As an aside, I recommend everyone have some kind of setup like this where you reuse plotting and analysis functions, no matter what language you're using. If you are editing these functions every day then either these scripts have not settled down yet or something isn't quite right with the workflow. It is worth it to sit down and figure out what tools you need to build to smooth out day-to-day computational tasks instead of writing scripts from scratch each time you have to make a graph of some data. For the most part, the file format for my data is the same, so I only need a handful of plotting and data read/write functions. Once they're written, that's it. I can move on.

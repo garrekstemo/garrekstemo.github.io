@@ -130,6 +130,7 @@
 body {
 	font-family: "Libre-Baskerville", "Georgia", "Times New Roman", serif;
 	font-size: 1em;
+    padding: 0;
     margin-left: 20px;
     margin-right: 20px;
 	line-height: 1.6;
@@ -137,7 +138,7 @@ body {
 
 main {
 	grid-area: content;
-	max-width: 640px;
+	/* max-width: 640px; */
 }
 
 article {
@@ -215,9 +216,10 @@ article.link header h2 a:visited {
 blockquote {
     font-style: italic;
     width: 80%;
-    margin: 30px auto;
+    margin: 30px 30px 30px 30px;
     position: relative;
     padding-left: 20px;
+    padding-right: 20px;
     border-left: 2px solid;
 }
 
@@ -245,6 +247,18 @@ hr {
     margin-bottom: 1em;
     margin-left: 0;
 
+}
+
+pre {
+    display: block;
+    font-family: Menlo, Monaco, monospace;
+    line-height: 1.6em;
+    white-space: pre-wrap;
+    margin: 1em, 0;
+}
+code {
+    font-family: Menlo, Monaco, monospace;
+    font-size: 1em;
 }
 
 /* ----------------------------------------------------------------------- */
