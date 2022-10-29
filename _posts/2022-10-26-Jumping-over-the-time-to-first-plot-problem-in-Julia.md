@@ -26,10 +26,10 @@ That last point about sysimages is where I want to focus. Making a sysimage in V
 4. Paste the following into that file
 
 ```
- [sysimage]
- exclude=[]   # Additional packages to be exlucded in the system image
- statements_files=[]  # Precompile statements files to be used, relative to the project folder
- execution_files=[] # Precompile execution files to be used, relative to the project folder
+[sysimage]
+exclude=[]   # Additional packages to be exlucded in the system image
+statements_files=[]  # Precompile statements files to be used, relative to the project folder
+execution_files=[] # Precompile execution files to be used, relative to the project folder
 ```
 
 5. Select `Tasks: Run Build Task` and then `select Julia: Build custom sysimage for current environment`    

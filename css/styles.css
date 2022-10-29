@@ -6,6 +6,8 @@
 .wrapper {
     display: grid;
     gap: 20px;
+    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);  /* Prevents text blowing out of the grid column */
     grid-template-areas:
         "header"
         "content"
@@ -22,19 +24,14 @@
 /* For larger screens */
 @media (min-width: 640px) {
 	.wrapper {
-		grid-template-columns: 1fr 2fr;
+        grid-template-columns: 200px 2fr;  /* the left nav is pixel-fixed */
+        grid-template-columns: 200px minmax(0, 2fr);
 		grid-template-areas:
 			".        header"
 			"nav      content"
 			"footer   footer";
 		box-sizing: border-box;
-		
-	}
-	main {
-		padding-right: 1.5em;
-	}
-	article {
-		padding-top: 1em;
+        max-width: 90%;
 	}
 	
 	nav {
@@ -138,11 +135,6 @@ body {
 
 main {
 	grid-area: content;
-	/* max-width: 640px; */
-}
-
-article {
-	max-width: 640px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -224,8 +216,8 @@ blockquote {
 }
 
 div[role="doc-endnotes"] {
-	font-family: "Apple Symbols", Verdana, sans-serif}
-
+	font-family: "Apple Symbols", Verdana, sans-serif
+}
 
 hr {
     border: 1px;
@@ -249,17 +241,34 @@ hr {
 
 }
 
+
+
 pre {
+    position: relative;
+    font-family: Menlo, Monaco, monospace;
+    font-size: 0.9em;
+    line-height: 1.5em;
     display: block;
-    font-family: Menlo, Monaco, monospace;
-    line-height: 1.6em;
-    white-space: pre-wrap;
-    margin: 1em, 0;
+    overflow: auto;
+    word-wrap: break-word;
+    padding: 1em 2em;
+    max-width: 100%;
+    break-inside: avoid;
+    background: #f8f9fa;
+
+    color: #15252b;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    /* border-left: 3px solid #0082c7; */
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; */
 }
+
 code {
-    font-family: Menlo, Monaco, monospace;
-    font-size: 1em;
+    background: none;
 }
+
+
+
 
 /* ----------------------------------------------------------------------- */
 /* 						Figures and Images								   */
