@@ -132,12 +132,13 @@
 body {
 	font-family: "Libre-Baskerville", "Georgia", "Times New Roman", serif;
 	font-size: 1em;
+	line-height: 1.6em;
     padding: 15px;
     margin-left: auto; /* auto on left, right centers the content */
     margin-right: auto;
     margin-top: 0;
     margin-bottom: 0;
-	line-height: 1.6em;
+    overflow-x: hidden;
 }
 
 main {
