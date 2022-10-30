@@ -84,7 +84,7 @@
     z-index: 1;
     top: 0;
     right: 0;
-    background-color: #0082c7;
+    background-color: #0095e4;
     box-shadow: 2px 2px 50px #3b3b3b;
     overflow-x: hidden;
     padding-top: 60px;
@@ -93,7 +93,7 @@
 .sidenav a {
     display: block;
     font-family: Helvetica, "Helvetica Neue", Verdana, sans-serif;
-    font-size: 28px;
+    font-size: 2em;
     line-height: 1.8em;
     text-decoration: none;
 
@@ -103,7 +103,7 @@
     margin-bottom: 5px;
 
     color: #ffffff;
-    background-color: #0082c7;
+    background: none;
     transition: 0.1;
 }
 .sidenav a:hover {
@@ -120,14 +120,15 @@
 }
 
 .sidenav hr {
+    width: 80%;
+    height: 1px;
     position: absolute;
-    border: 1px;
-    border-style: solid;
-    border-color: #056baa;
+    border: 0 none;
+    background-color: #056baa;
+    /* border-style: solid; */
     margin-top: 0.1em;
     margin-left: 1em;
-    width: 80%;
-    outline: none;
+
 }
 
 body {
