@@ -17,8 +17,7 @@ Only after that initial setup are all subsequent plots instant &mdash; as long a
 
 >A tangent: I believe it is worthwhile to discuss why this is such a phenomenally big problem in julia. Julia has two very special features other languages do not share: (1) multimethods as the fundamental principle for the entirety of the ecosystem and (2) compiled code. It is very difficult to know what code you need compiled and to not discard the vast majority of already compiled code when importing new libraries that add new methods for pre-existing functions. No one has had to deal with this problem before julia. It is being slowly dealt with. Sysimages basically carry the promise that no significant amount of new methods will be defined, hence they can cache more compiled code (this is very oversimplified borderline misleading explanation).
 
-
-That last point about sysimages is where I want to focus. Making a sysimage in Visual Studio Code is a game changer, and I recommend all Julia users try it. It essentially compiles all the libraries from your project, and any other files you specify, and puts them into a file. I guess you could say it freezes your Julia session to use later. This is faster than precompiling each time. It's built into the Julia extension and easy to set up. Instructions are here: [Compiling Sysimages](https://www.julia-vscode.org/docs/dev/userguide/compilesysimage/). In a nutshell the steps are:
+That last point about sysimages is interesting. Making a sysimage in Visual Studio Code is a big workflow improvement, and I recommend all Julia users try it. It essentially compiles all the libraries from your project, and any other files you specify, and puts them into a file. I guess you could say it freezes your Julia session to use later. This is faster than precompiling each time. It's built into the Julia extension and easy to set up. Detailed instructions are on the [Julia VS Code extension website](https://www.julia-vscode.org/docs/dev/userguide/compilesysimage/), but in a nutshell the steps are:
 
 1. Open your project folder in VS Code with the [Julia extension installed](https://code.visualstudio.com/docs/languages/julia) (and make sure it's activated)
 2. Make a new folder called `.vscode`
@@ -36,11 +35,11 @@ execution_files=[] # Precompile execution files to be used, relative to the proj
 6. Check the `useCustomSysimage` setting in the Julia extension settings in VS Code
 7. Restart the Julia REPL. (Hit the trash can button and open a new REPL session from the Command Palette)
 
-The VS Code extension automatically uses the sysimage instead of precompiling your project. And now your project should run much faster and TTFX will be significantly sped-up. On my M1 iMac I use the powerful but compiler-heavy [Makie](https://docs.makie.org/stable/) plotting library and I went from waiting about 2 minutes for precompilation and maybe 30 seconds for that first plot to almost no compile time, and execution in less than a second. (Other people have properly benchmarked this, I'm not going to do that here). I see similar results on my 2019 Intel Macbook Pro.
+The extension automatically uses the sysimage instead of precompiling your project. And now your project should run much faster and TTFX will be significantly sped-up. On my M1 iMac I use the powerful but compiler-heavy [Makie](https://docs.makie.org/stable/) plotting library and I went from waiting about 2 minutes for precompilation and maybe 30 seconds for that first plot to almost no compile time, and execution in less than a second. (Other people have properly benchmarked this, I'm not going to do that here). I see similar results on my 2019 Intel Macbook Pro.
 
 But here's what really got my workflow sailing. I'm PhD student working in experimental physics. I have a lot of messy data and I need to make a ton of plots to explore that data. I have a top-level folder for my experiment.
 In there I have separate folders for raw data, daily scripts, and results/plots.
-Then I have a `src` folder where plotting, analysis, and file reading/writing scripts go. The files in `src` rarely change, so that means I can add them to the `execution_files` section in my `JuliaSysimage.toml` file. These scripts get compiled along with all my plotting packages into the sysimage. This makes _everything_ fast. It's incredible.
+Then I have a `src` folder where plotting, analysis, and file reading/writing scripts go. The files in `src` rarely change, so that means I can add them to the `execution_files` section in my `JuliaSysimage.toml` file. These scripts get compiled along with all my plotting packages into the sysimage. This makes _everything_ fast.
 
 ```
 My Experiment Folder
@@ -83,7 +82,9 @@ to `JuliaSysimage.toml`. As long as I don't change these files, their functions 
 As an aside, I recommend everyone have some kind of setup like this where you reuse plotting and analysis functions, no matter what language you're using. If you are editing these functions every day then either these scripts have not settled down yet or something isn't quite right with the workflow. It is worth it to sit down and figure out what tools you need to build to smooth out day-to-day computational tasks instead of writing scripts from scratch each time you have to make a graph of some data. For the most part, the file format for my data is the same, so I only need a handful of plotting and data read/write functions. Once they're written, that's it. I can move on.
 
 As many others have said, the time-to-first-X problem is a priority for the Julia developers. The version 1.8 update this year saw some speedups,
-and I think the expectation is that this will continue in future releases. 
+and I think the expectation is that this will continue in future 1.x releases. 
 These improvements to the compilation stage, both in VS Code and the work being done in the language itself, have surpassed my expectations. I thought Julia would always have an initial lag and that people would have to make hacks and workarounds. This really is exciting, and there is a lot to look forward to in Julia's future.
+
+<hr class="ref">
 
 [^fn_22021026_1]: The plotting libraries generally take the longest to precompile.
