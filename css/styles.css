@@ -48,6 +48,7 @@
 		text-align: right;
         font-family: Helvetica, "Helvetica Neue", Verdana, sans-serif;
         font-size: 1.5em;
+        line-height: 1.6em;
         font-weight: 400;
         list-style: none;
 		}
@@ -92,18 +93,19 @@
     transition: .1s;
 }
 .sidenav a {
-    /* padding: 8px 8px 8px 50px; */
-    padding-left: 25px;
-    padding-top: 8px;
-    padding-right: 8px;
-    padding-bottom: 8px;
-
-    text-decoration: none;
-    font-size: 28px;
+    display: block;
     font-family: Helvetica, "Helvetica Neue", Verdana, sans-serif;
+    font-size: 28px;
+    line-height: 1.8em;
+    text-decoration: none;
+
+    margin-left: 25px;
+    margin-right: 0;
+    margin-top: 20px;
+    margin-bottom: 5px;
+
     color: #ffffff;
     background-color: #0082c7;
-    display: block;
     transition: 0.1;
 }
 .sidenav a:hover {
@@ -138,7 +140,7 @@ body {
     margin-right: auto;
     margin-top: 0;
     margin-bottom: 0;
-	line-height: 1.6;
+	line-height: 1.6em;
 }
 
 main {
@@ -161,7 +163,7 @@ pre {
     position: relative;
     font-family: Menlo, Monaco, monospace;
     font-size: 1em;
-    line-height: 1.5em;
+    line-height: 1.6em;
     display: block;
     overflow: auto;
     word-wrap: break-word;
@@ -175,6 +177,9 @@ pre {
 }
 
 code {
+    font-family: Menlo, Monaco, monospace;
+    font-size: 1em;
+    line-height: 1.6em;
     background: none;
 }
 
@@ -189,9 +194,12 @@ h1 {
 }
 h2 {
 	font-size: 2em;
+    line-height: 1.4em;
 }
 h3 {
 	font-size: 1.5em;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
 }
 
 /* Datelines go under article headers */
@@ -220,7 +228,7 @@ h1 a, h2 a, h3 a {
 h1 a:hover, h2 a:hover, h3 a:hover {
     text-decoration: underline;
     text-decoration-thickness: 0.5em;
-    text-underline-offset: -0.3em;
+    text-underline-offset: -0.2em;
 }
 
 /* Link articles */
