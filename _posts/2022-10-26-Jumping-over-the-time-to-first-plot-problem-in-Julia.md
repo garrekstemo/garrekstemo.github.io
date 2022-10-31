@@ -22,18 +22,18 @@ That last point about sysimages is interesting. Making a sysimage in Visual Stud
 1. Open your project folder in VS Code with the [Julia extension installed](https://code.visualstudio.com/docs/languages/julia) (and make sure it's activated)
 2. Make a new folder called `.vscode`
 3. Make a file called `JuliaSysimage.toml` in that folder
-4. Paste the following into that file
+4. Paste the `[sysimage]` text below this list into that file
+5. Select `Tasks: Run Build Task` and then `select Julia: Build custom sysimage for current environment`    
+6. Check the `useCustomSysimage` setting in the Julia extension settings in VS Code
+7. Restart the Julia REPL. (Hit the trash can button and open a new REPL session from the Command Palette)
 
+Copy and paste this into a `JuliaSysimage.toml` file:
 ```
 [sysimage]
 exclude=[]   # Additional packages to be exlucded in the system image
 statements_files=[]  # Precompile statements files to be used, relative to the project folder
 execution_files=[] # Precompile execution files to be used, relative to the project folder
 ```
-
-5. Select `Tasks: Run Build Task` and then `select Julia: Build custom sysimage for current environment`    
-6. Check the `useCustomSysimage` setting in the Julia extension settings in VS Code
-7. Restart the Julia REPL. (Hit the trash can button and open a new REPL session from the Command Palette)
 
 The extension automatically uses the sysimage instead of precompiling your project. And now your project should run much faster and TTFX will be significantly sped-up. On my M1 iMac I use the powerful but compiler-heavy [Makie](https://docs.makie.org/stable/) plotting library and I went from waiting about 2 minutes for precompilation and maybe 30 seconds for that first plot to almost no compile time, and execution in less than a second. (Other people have properly benchmarked this, I'm not going to do that here). I see similar results on my 2019 Intel Macbook Pro.
 
