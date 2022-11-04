@@ -4,64 +4,61 @@ title: Research
 permalink: /research/
 ---
 
-## Light-matter strong coupling
+## Light-matter coupling
 
-When matter interacts with a quantized electromagnetic field under
-certain conditions, the result is a hybrid quasi-particle called a
-“polariton”. I study a particular type of polariton called a
-“vibrational polariton”. These result from strongly coupled molecular
-vibrations and quantized light. Light is quantized by confining the
-electromagnetic wave between two highly reflective mirrors. In my
-research, the mirrors are about 10 to 20 micrometers apart.
+<figure class="right">
+    <img src="/assets/images/research/medium-800px-ball-and-spring.png" alt="Two balls attached by a spring"/>
+</figure>
+The bonds of molecules vibrate. They stretch, they twist, and they rotate kind of like if you attach balls to a spring.
+Just like the ball-and-spring can stretch at different frequencies, so can the molecular bonds.
+
+The stretching frequency is associated with an energy &mdash; the more energy you put into the spring, the faster it will stretch and compress. In a molecule, you can directly excite a molecular bond with light.
+
+
+When matter interacts with confined light, the two can couple together. Why would this be the case? Light in free space can of course be absorbed by the molecule (it might be absorbed by the bond), but the molecular vibration will eventually decay and the light will be re-emitted back into free space. If you confine light, say, by placing two mirrors face-to-face, then you make a standing wave. Two people holding opposite ends of a rope and waving it up and down is an example of a standing wave. Think of the opposing mirrors as the two people holding the rope. The light bounces back and forth between them and, just like with the rope, the standing light wave can only exist at certain frequencies (Try this! There are lots of videos online demonstrating this. At a slow speed, you just get a single arc going up and down. If you wave a little faster, the structure breaks down and the rope is all over the place. But go at just the right frequency, and you get two arcs going in opposite directions (one up and the other down), with a node in the middle that doesn't move. You can keep going with more energy as long as you don't tire out!)
+
+When the frequency of the light is the same as the vibration frequency of the molecule, then the two can couple. The molecule absorbs the light (a photon) and re-emits it back into the cavity. Then it gets re-absorbed by the molecule and this can go on for a long time.
+
+<figure class="right">
+    <img src="/assets/images/research/medium-800px-coupled-pendulum-two-modes.png" alt="Two normal modes of a spring-coupled pendulum"/>
+</figure>
+The light-matter coupling is analogous to two pendulums attached by a spring. Separate, each pendulum can oscillate at its own frequency independent of the other. Once they are attached by a spring, then there are two "resonances". They can either swing together: going together to the right, then to the left. Or they can swing opposite one another: they swing apart and the stretched spring forces them back together, and the now compressed spring pushes them apart again. These are two "normal modes" of the coupled pendulum. The confined light and matter, when coupled together, behave very much like the coupled pendulum ([details of the physics here](https://phys.libretexts.org/Bookshelves/University_Physics/Book%3A_Mechanics_and_Relativity_(Idema)/08%3A_Oscillations/8.04%3A_Coupled_Oscillators)).
+
+
+What is different in the coupled case versus just molecule or cavity alone? And how long do the coupled states last? These questions require ultrafast lasers. Since we are looking at molecular vibrations, we also need the light to be in the [mid-infrared region](https://en.wikipedia.org/wiki/Infrared#Regions_within_the_infrared).
+The power of an ultrafast laser is in [pulses that repeat](https://en.wikipedia.org/wiki/Pulsed_laser) at a certain rate. The temporal width of a pulse determines what kind of processes you can study. Molecular vibrations (once excited) decay very rapidly &mdash; on the order of pisoseconds (10<sup>-12</sup> s) &mdash; so in order to see them a femtosecond (10<sup>-15</sup> s) pulse width is required.
+
+The experiment goes like this. An initial pulse is sent to excite the system &mdash; we put some energy into the light-matter coupled system. Then, while it is decaying, we send in a second pulse which then gets information about the system at some later time. This second pulse makes its way to a detector, which converts the light to an electrical signal that we can record. It's kind of like a strobe light and camera. You flash a light on the subject and then snap a picture. In fact, if you want to take a picture of a fast-moving subject (a bullet going through an apple), you need a lot of light and a very fast shuttter speed. This is very similar to the femtosecond excitation pulse-measurement pulse process.
 
 <figure>
 	<img 
-	src="/assets/images/research/small-640px-experiment.jpg" 
-	alt="Molecule-cavity Experiment"/>
-	<figcaption><b>Figure 1.</b> Molecules can couple to a confined electromagnetic field
-	simply by placing them between two highly reflective mirrors.
-	The cavity field and molecular vibrations exchange energy. If the
-	rate of this exchange is faster than molecular dissipative processes
-	or photon leakage out of the cavity, then the
-	system is said to be strongly coupled. The system can then be examined using
-	ultrafast pump and probe laser pulses.
+	src="/assets/images/research/medium-800px-pump-probe.png" 
+	alt="Molecule-cavity Pump-probe experiment"/>
+	<figcaption>The mirrors create standing a standing electromagnetic wave that interacts with a molecular vibration. The excitation (pump) pulse excites the sample. The following measurement (probe) pulse collects information about the system at some time later and goes on to the detector.
 	</figcaption>
 </figure>
 
 
-One of the most exciting things about vibrational polaritons is that
-they can be used to modify chemical reactions. We’re not sure about the
-details of how this happens, so that’s a major area of focus for the
-field. <a href="https://www.chemistryworld.com/holy-grails/the-grails/quantum-
-control">This article on quantum
-control</a> goes into a bit more detail.
-
+Why study interactions between molecular vibrations and light?
+One of the most exciting things about these systems is that
+they can be used to modify chemical reactions. There are already demonstrations of this happening, but nobody knows *how* it happens.
+My goal is to figure out the fundamental properties of vibration-light coupling so that the chemistry might be explained.
 
 <figure>
 	<img
-	src="/assets/images/research/small-640px-energy_levels.png"
+	src="/assets/images/research/large-1200px-vibrational-energy-level-diagram.png"
 	alt="Vibrational energy levels and cavity photon energy levels">
-	<figcaption><b>Figure 2.</b> The energy curve on the left shows the discrete
-	molecular vibrational energy levels. When a transition between
-	two levels has the same energy as a cavity photon (on the right),
-	then the two can couple to form a new system with different energy 
-	eigenstates, called the upper and lower polariton. The energy that
-	separates these eigenstates is called the Rabi splitting energy. This 
-	represents the rate of energy exchange between the molecules and the
-	quantized electromagnetic field.
+	<figcaption>And here is a technical depiction of the coupling between the vibration and photon. It is a quantum mechanical process, and the curve on the left is the discretized vibrational energy levels. The photon (right) and vibration couple when their energies are the same and they form two new normal modes.
 	</figcaption>
 </figure>
 
 
-### Interests
+### Interests (on a slightly more technical level)
 
-I’m interested in the physics of vibrational polaritons and how they
+I’m interested in the physics of vibration-cavity photon systems (vibrational polaritons) and how they
 facilitate modified chemical reactivity. Ultrafast laser spectroscopy is
 the tool for this job. It allows me to study how the molecule-light
-interaction changes over extremely short time scales (picoseconds).
+interaction changes over short time scales.
 There is still a lot to uncover about these curious quasi-particles. We
 don’t have a full picture of how vibrational polaritons relax from
-excited states, for example. The role of polariton coherence, population
-transfer, and interactions with the reservoir excitations (uncoupled
-molecules) also need to be studied further to understand how all of
-these factors might play into modified reactivity.
+excited states, for example. The role of polariton coherence, population transfer, and interactions with the reservoir states (uncoupled molecules) also need to be studied further to understand how all of these factors might play into modified reactivity.
