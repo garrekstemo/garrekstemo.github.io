@@ -9,6 +9,10 @@ _site/
 .jekyll-cache
 .jekyll-metadata
 
+### Ruby ###
+vendor/
+.bundle/
+
 ### macOS ###
 # General
 .DS_Store
