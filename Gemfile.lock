@@ -65,7 +65,7 @@ PLATFORMS
   arm64-darwin-21
 
 DEPENDENCIES
-  jekyll
+  jekyll (= 4.3.1)
   jekyll-feed
   kramdown-parser-gfm
   webrick
