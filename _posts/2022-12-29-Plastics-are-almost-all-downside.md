@@ -4,7 +4,7 @@ title: "Plastics Are Almost All Downside"
 date: 2022-12-29
 ---
 
-This piece by Judith Enck and Jan Dell in the Atlantic highlights three main problems with plastic recycling:
+This piece by Judith Enck, a former EPA regional administrator, and Jan Dell, a chemical engineer, in the Atlantic highlight three main problems with plastic recycling.
 
 1. The large number of types of plastics make sorting and recycling difficult.
 
@@ -20,7 +20,7 @@ This piece by Judith Enck and Jan Dell in the Atlantic highlights three main pro
 
 In addition, there is a growing body of evidence showing that plastics break down into microplastics that permeate the environment, and humans and animals end up ingesting them. There are microplastics [in all corners of the earth](https://www.ft.com/content/ecf5bf52-bd21-11e9-b350-db00d509634e) and researchers have been trying to understand their [effects on human health](https://www.nature.com/articles/d41586-021-01143-3).
 
-Since learning about the prevalence of plastics, I've been cutting down on the amount of plastic goods I purchased. Several years ago I stopped storing food in plastic containers, opting for metal or glass. Last year, I stopped buying clothing made from synthetic materials (as much as I can), since clothing releases [a huge amount of microplastics](https://www.nature.com/articles/s41598-019-43023-x) into the water supply [in every wash](https://www.theguardian.com/science/2016/sep/27/washing-clothes-releases-water-polluting-fibres-study-finds). Now I buy cotton, wool, and linen clothing almost exclusively. I find myself paying more attention to the materials of pretty much every product I plan to purchase.
+This is frankly alarming, and I've been more and more shocked every year since the plastics issue has been making it into the mainstream press. I've been cutting down on the amount of plastic goods I purchased and several years ago I stopped storing food in plastic containers, opting for metal or glass. Last year, I stopped buying clothing made from synthetic materials (as much as I can), since clothing releases [a huge amount of microplastics](https://www.nature.com/articles/s41598-019-43023-x) into the water supply [in every wash](https://www.theguardian.com/science/2016/sep/27/washing-clothes-releases-water-polluting-fibres-study-finds). Now I buy cotton, wool, and linen clothing almost exclusively. I find myself paying more attention to the materials of pretty much every product I plan to purchase. It definitely feels like an uphill battle because of the sheer amount of plastic that is reported to be in our surroundings.
 
 
 [Plastic Recycling Doesn't Work and Will Never Work](https://www.theatlantic.com/ideas/archive/2022/05/single-use-plastic-chemical-recycling-disposal/661141/)
