@@ -7,15 +7,12 @@ date: 2022-12-29
 This piece by Judith Enck, a former EPA regional administrator, and Jan Dell, a chemical engineer, in the Atlantic highlight three main problems with plastic recycling.
 
 1. The large number of types of plastics make sorting and recycling difficult.
-
 >Just one fast-food meal can involve many different types of single-use plastic, including PET#1, HDPE#2, LDPE#4, PP#5, and PS#6 cups, lids, clamshells, trays, bags, and cutlery, which cannot be recycled together.
 
 2. Processing plastic waste is toxic and wasteful.
-
 >Unlike metal and glass, plastics are not inert. Plastic products can include toxic additives and absorb chemicals, and are generally collected in curbside bins filled with possibly dangerous materials such as plastic pesticide containers. According to a report published by the Canadian government, toxicity risks in recycled plastic prohibit “the vast majority of plastic products and packaging produced” from being recycled into food-grade packaging.
 
 3. Recycling plastic is not economical.
-   
 >Yet another problem is that plastic recycling is simply not economical. Recycled plastic costs more than new plastic because collecting, sorting, transporting, and reprocessing plastic waste is exorbitantly expensive. The petrochemical industry is rapidly expanding, which will further lower the cost of new plastic.
 
 In addition, there is a growing body of evidence showing that plastics break down into microplastics that permeate the environment, and humans and animals end up ingesting them. There are microplastics [in all corners of the earth](https://www.ft.com/content/ecf5bf52-bd21-11e9-b350-db00d509634e) and researchers have been trying to understand their [effects on human health](https://www.nature.com/articles/d41586-021-01143-3).
