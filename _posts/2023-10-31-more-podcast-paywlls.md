@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Apple Silicon Macs have a DAC that supports high-impedance headphones"
+title: "Moroe Podcast Paywalls"
 date: 2023-10-31
 ---
 
