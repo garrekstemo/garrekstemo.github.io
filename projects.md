@@ -8,11 +8,13 @@ permalink: /projects/
 
 ### [TransferMatrix.jl](https://garrek.org/TransferMatrix.jl)
 
-A general 4 &times; 4 transfer matrix implementation for Julia built for reusability, ease-of-use, shareability based on up-to-date research on the topic with full documentation and extensive tutorials.
+A general 4 &times; 4 transfer matrix implementation for Julia built for reusability, ease-of-use, shareability based on some of the latest peer-reviewed research on the topic with full documentation and extensive tutorials.
 
-### [Models.jl](https://garrek.org/Models.jl)
 
-A collection of mathematical models for curve fitting to be used with [Optim.jl](https://julianlsolvers.github.io/Optim.jl/stable/). Most of the models are lineshapes that I use in infrared spectroscopy. One thing I really miss from Python is the excellent non-linear least-squares minimization package [lmfit](https://lmfit.github.io/lmfit-py/), especially the way they integrate models. Models.jl is not even close to the functionality of lmfit, but works pretty well with the Optim.jl minimizer.
+### [Interactive Plots in GLMakie](https://github.com/garrekstemo/InteractivePlotExamples.jl)
+
+I can't say enough how much I'm in love with the Makie plotting software. One of the backends uses the GPU to render plots, which makes it responsive and interactive. This is a collection of examples of how to make interactive plots in Makie demonstrating some basic physics concepts. If you have ideas for more examples, open an issue or a pull request.
+
 
 ### Other Projects
 
