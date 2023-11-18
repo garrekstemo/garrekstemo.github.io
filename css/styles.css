@@ -85,11 +85,11 @@
     z-index: 1;
     top: 0;
     right: 0;
-    /* background-color: #1dbfe8;  electric blue type of thing */
+    background-color: #1cc5f9;
+    /* background-color: #1dbfe8; */
     /* background-color: #21839a;  Mediterranean blue */
-    /* background-color: #0096d1;  Amex blue */
-    background-color: #38b3d0;  /* River blue */
-    box-shadow: 2px 2px 50px #3b3b3b;
+    /* background-color: #0096d1; */
+    box-shadow: 2px 2px 100px #3b3b3b;
     overflow-x: hidden;
     padding-top: 60px;
     transition: .1s;
@@ -111,7 +111,8 @@
     transition: 0.1;
 }
 .sidenav a:hover {
-    color: #056baa;
+    color: #0d94e8;
+    /* color:rgb(255, 168, 61); */
 }
 
 .sidenav .close-button {
@@ -406,7 +407,7 @@ footer {
 		color: #e8e8e8;}
 
     a.permalinkanchor:hover {
-        color:#3498d8
+        color:#3498d8;
     }
 
 	#listessays a {
@@ -423,7 +424,7 @@ footer {
 		color: #e8e8e8;
 	}
     #masthead h1 a:hover {
-        color: #818181
+        color: #818181;
     }
     #menu:hover {
         color: #818181;
@@ -438,7 +439,7 @@ footer {
 }
 
 @media (prefers-color-scheme: light) {
-	* { background-color: #fff4eb }
+	* { background-color: rgb(252, 245, 239); }
 	body { color: #202020; }
 	h1 { color: #000; }
 	h2 { color: #000; }
