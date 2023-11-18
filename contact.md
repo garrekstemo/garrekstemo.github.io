@@ -6,7 +6,13 @@ permalink: /contact/
 
 ## Contact
 
-I don't write much or often, but I encourage comments on the writing
-that appears here.
-The best way to connect with me is on Twitter, 
-[@garrekstemo](https://twitter.com/garrekstemo).
+Send me your comments regarding what I write on this site.
+The social web is a bit of a mess right now, so there isn't one public place to comment on posts.
+My username is @GarrekStemo on most social media platforms.
+
+Some links:
+
+Mastodon: [@GarrekStemo@qubit-social.xyz](https://qubit-social.xyz/@GarrekStemo) \\
+Threads: [@GarrekStemo](https://www.threads.net/@garrekstemo)
+
+Email is always welcome. You know where to find me.
