@@ -12,7 +12,8 @@ My username is @GarrekStemo on most social media platforms.
 
 Some links:
 
-Mastodon: [@GarrekStemo@qubit-social.xyz](https://mastodon.social/@GarrekStemo) \\
-Threads: [@GarrekStemo](https://www.threads.net/@garrekstemo)
+Threads: [@GarrekStemo](https://www.threads.net/@garrekstemo) \\
+Mastodon: [@GarrekStemo@mastodon.social](https://mastodon.social/@GarrekStemo)
+
 
 Email is always welcome. You know where to find me.
