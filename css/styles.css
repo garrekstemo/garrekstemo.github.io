@@ -76,63 +76,6 @@
 	text-decoration: none;
 }
 
-/* Slide-ver side navigation menu */
-
-.sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    right: 0;
-    background-color: #1cc5f9;
-    /* background-color: #1dbfe8; */
-    /* background-color: #21839a;  Mediterranean blue */
-    /* background-color: #0096d1; */
-    box-shadow: 2px 2px 100px #3b3b3b;
-    overflow-x: hidden;
-    padding-top: 60px;
-    transition: .1s;
-}
-.sidenav a {
-    display: block;
-    font-family: Helvetica, "Helvetica Neue", Verdana, sans-serif;
-    font-size: 2em;
-    line-height: 1.8em;
-    text-decoration: none;
-
-    margin-left: 25px;
-    margin-right: 0;
-    margin-top: 20px;
-    margin-bottom: 5px;
-
-    color: #ffffff;
-    background: none;
-    transition: 0.1;
-}
-.sidenav a:hover {
-    color: #0d94e8;
-    /* color:rgb(255, 168, 61); */
-}
-
-.sidenav .close-button {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 50px;
-    margin: 0;
-    padding: 0;
-}
-
-.sidenav hr {
-    width: 80%;
-    height: 1px;
-    position: absolute;
-    border: 0 none;
-    background-color: #056baa;
-    margin-top: 0.1em;
-    margin-left: 1em;
-}
 
 body {
 	font-family: "Libre-Baskerville", "Georgia", "Times New Roman", serif;
@@ -288,10 +231,10 @@ figure {
 
 figure.right {
 	float: right;
-	margin-left: 1em;
+	margin-left: 0.5em;
 	margin-right: 0;
 	margin-top: 0;
-	max-width: 33.3%;
+	max-width: 40%;
 	}
 	
 figcaption {
