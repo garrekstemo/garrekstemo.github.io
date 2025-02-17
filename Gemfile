@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "jekyll", "4.3.3"
+gem "jekyll"
 gem "webrick"
 gem "kramdown-parser-gfm"
 
