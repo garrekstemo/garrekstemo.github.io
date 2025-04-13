@@ -212,7 +212,6 @@ hr {
     margin-top: 2em;
     margin-bottom: 1em;
     margin-left: 0;
-
 }
 
 
@@ -238,7 +237,7 @@ figure.right {
 	}
 	
 figcaption {
-	font-family: Helvetica, "HelveticaNeue", Verdana, sans-serif;
+	font-family: Helvetica, "Helvetica Neue", Verdana, sans-serif;
 	text-align: left;
 	font-size: 0.85em;
 }
