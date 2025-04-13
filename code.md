@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Research
-permalink: /projects/
+permalink: /code/
 ---
 
-## Projects
+## Code
 
 ### [TransferMatrix.jl](https://garrek.org/TransferMatrix.jl)
 
