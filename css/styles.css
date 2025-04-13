@@ -6,7 +6,6 @@
 .wrapper {
     display: grid;
     gap: 20px;
-    /* grid-template-columns: 1fr; */
     grid-template-columns: minmax(0, 1fr);  /* Prevents text blowing out of the grid column */
     grid-template-areas:
         "header"
@@ -24,7 +23,6 @@
 /* For larger screens */
 @media (min-width: 640px) {
 	.wrapper {
-        grid-template-columns: 180px 2fr;  /* the left nav width is pixel-fixed */
         grid-template-columns: 180px minmax(0, 2fr);
 		grid-template-areas:
 			".        header"
@@ -33,8 +31,13 @@
 		box-sizing: border-box;
         max-width: 800px;
 	}
-	
-	nav {
+    /* Photo gallery layout should be full width */
+    .wrapper.wrapper-photo {
+        max-width: none;
+	}
+
+
+    nav {
         grid-area: nav;
         margin-top: 11px;
         margin-bottom: 0;
@@ -219,11 +222,34 @@ hr {
 /* 						Figures and Images								   */
 /* ----------------------------------------------------------------------- */
 
-img, figure {
-	max-width: 100%;
+.photo-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 1rem;
+    margin-right: 5rem;
+    /* max-width: 1200px; */
+    /* padding: 1rem; */
+}
+/* .photo-grid img { */
+    /* width: 100%; */
+    /* height: auto; */
+    /* display: block; */
+    /* object-fit: cover; */
+/* } */
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 figure {
+    max-width: 100%;
 	padding: 5px;
 	margin-bottom: 0.5em;
 }
@@ -285,17 +311,6 @@ footer {
 }
 
 #masthead p { margin: 0; padding: 0;}
-
-#menu {
-    position: absolute;
-    right: 50px;
-    top: 30px;
-    cursor: pointer;
-    font-family: Helvetica, "Helvetica Neue", Verdana, sans-serif;
-    font-size: 1.5em;
-    text-decoration: underline;
-    text-underline-offset: 0.3em;
-}
 
 
 /* ----------------------------------------------------------------------- */
@@ -366,9 +381,6 @@ footer {
 		color: #e8e8e8;
 	}
     #masthead h1 a:hover {
-        color: #818181;
-    }
-    #menu:hover {
         color: #818181;
     }
 
@@ -445,9 +457,6 @@ footer {
 	}
     #masthead h1 a:hover {
         color: #818181
-    }
-    #menu:hover {
-        color: #818181;
     }
     .dateline{
         color:#434343;
