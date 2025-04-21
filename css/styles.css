@@ -432,7 +432,7 @@ footer {
 }
 
 @media (prefers-color-scheme: light) {
-	* { background-color: rgb(252, 245, 239); }
+	* { background-color: #fcf5ef; }
 	body { color: #202020; }
 	h1 { color: #000; }
 	h2 { color: #000; }
