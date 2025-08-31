@@ -137,7 +137,8 @@ code {
 
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: Helvetica, "Helvetica Neue", Verdana, sans-serif;
+	/* font-family: Helvetica, "Helvetica Neue", Verdana, sans-serif; */
+	font-family: "Libre-Baskerville", "Georgia", "Times New Roman", serif;
 }
 
 h1 {
@@ -156,7 +157,7 @@ h3 {
 
 /* Datelines go under article headers */
 .dateline {
-    font-family: "Libre-Baskerville", "Georgia", "Times New Roman", Times, serif;
+    font-family: "Libre-Baskerville", "Georgia", "Times New Roman", serif;
     font-size: 1em;
     font-style: italic;
     font-weight: normal;
