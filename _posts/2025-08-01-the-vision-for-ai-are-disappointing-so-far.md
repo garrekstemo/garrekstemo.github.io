@@ -16,8 +16,7 @@ The answer is almost certainly “no”. Real change will come from real innovat
 
 Generative AI may yet change the world. But for now, it mostly wants to sell you things efficiently.
 
-
-### Links and further reading
+<br>
 
 Robert Gordon, 2016. *The Rise and Fall of American Growth*. Princeton University Press, Chapter 5.
 
