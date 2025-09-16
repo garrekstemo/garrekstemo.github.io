@@ -1,0 +1,837 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Garrek.org</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="icon" type="image/png" href="/assets/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
+<link rel="shortcut icon" href="/assets/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png" />
+<link rel="manifest" href="/assets/site.webmanifest" />
+<meta name="theme-color" content="#fcf5ef" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#15252b" media="(prefers-color-scheme: dark)" />
+</head>
+<body class="wrapper">
+<header class="main-head" id="masthead">
+    <h1>
+      <a href="/">Garrek Stemo</a>
+    </h1>
+</header>
+<nav>
+    <ul>
+      <li><a href="/about/">About</a></li>
+      <li><a href="/research/">Research</a></li>
+      <li><a href="/photography/">Photography</a></li>
+      <li><a href="/writing/">Writing</a></li>
+      <li><a href="/sports/">Sports</a></li>
+      <li><a href="/code/">Code</a></li>
+    </ul>
+</nav>
+
+
+<main>
+
+    
+
+    <h2><a href="/2025/09/03/AI-benchmarks-are-confusing-journalists.html">AI Benchmarks Are Confusing Journalists</a></h2>
+    <h6 class="dateline">Wednesday, September 03 2025</h6>
+
+    <p>In July, <em>The Economist</em> repeated a claim that prognosticators at the Forecasting Research Institute (FRI) had underestimated the progress of AI by nearly a decade. OpenAI’s o3 model, they wrote, was already performing at the level of a top team of human virologists. On its face this would suggest that super-intelligent AI had arrived. If language models (LLMs) can solve problems that require a team of scientists, then they surely can do my job and can now get on with driving a new scientific and economic revolution.</p>
+
+<p>The trouble is that any serious look at FRI’s benchmarks puts the claims into question. Testimony from people actually using LLMs for creative work makes me question the authors’ seriousness. LLMs do not perform like a bunch of PhDs in a data center. They will not get us there, even with more training and tricks. A new architecture is needed for AI to do original research.</p>
+
+<p>Those in the AI forecasting business are not testing what they think they are testing and often misinterpret their own results. The media exacerbate the problem. They must do better to understand what a benchmark actually measures and evaluate that against forecasters’ claims before reporting them. More importantly, they should interview experts trying to incorporate LLMs into their work. There is no benchmark that can substitute for integrating AI into a creative workflow. Doing so makes the shortcomings of language models like o3 obvious.</p>
+
+<p>Dwarkesh Patel, a podcaster who has interviewed executives and academics working on AI, quibbles with the predictions that AI will be able to replace white collar work in a few years. His main critique is that current LLM systems’ inability to learn will hold them back. He makes the point by analogy of teaching a student the saxophone. Using an LLM is like having a student play a song, writing detailed instructions about mistakes and improvements to make, and then inviting a new student to try again based on those notes. AI systems will always be mildly infuriating in this way until they can learn and remember. Students improve with practice; LLMs are stuck until a new version is built.</p>
+
+<p>Chris Rackauckas, a scientific machine learning researcher at MIT, described a similar experience on the Julia language forums. He found that Claude Code was useful for repetitive code maintenance and simple problems “that a first year undergrad can do”. But it was unable to do extensive or novel algorithmic work. “This Claude thing is pretty dumb,” he writes, “but I had a ton of issues open that require a brainless solution”. Useful, but a team of machine learning experts it is not.</p>
+
+<p>The release of GPT-5 in ChatGPT coincided with me wanting to implement a quantum master equation for nonlinear spectroscopy based on a paper published this year. ChatGPT (and Claude Code) could translate well-known parts of the theory, like the Lindblad equation, into Julia. But it struggled with new material and putting the pieces together so that everything worked. As most papers go, the authors left out details that the LLMs are happy to guess about. I still needed to work through the paper, understand the theory, understand how to express it in code, and do a lot of the writing myself.</p>
+
+<p>What ChatGPT-5 improves upon is retrieving fundamental information and filling in my own knowledge gaps with correct references (which wasn’t the case a short while ago). It can create toy problems to test how parts of the code should work within the larger framework. What it still cannot do is implement a just-published piece of theory in code, let alone extend it into novel territory, a natural next step for research.</p>
+
+<p>LLMs are interpolation machines, not extrapolation machines. They can reproduce what is in their training data and generate new output within those limits. Yann LeCun has said in interviews that LLMs are “systems with a gigantic memory and retrieval ability”. They do not function like a PhD, which requires asking the right questions and solving novel problems.</p>
+
+<p>My gripe is not about the capabilities of LLMs, which are already quite powerful. It is with these benchmarks claiming there is something there that isn’t and extrapolating to predict an intelligence explosion that will start solving real problems. I agree with LeCun and Patel that progress will require a new architecture that can learn, have persistent memory, plan, and understand the physical world.</p>
+
+<p>Reputable media outfits conflating AI generally with LLM technology specifically is a major problem that I hope is resolved soon. There will not be a continuous line from the current architecture to the next one. In reality, progress is likely to be discontinuous, and bridging that gap will take more than scaling up LLM technology with bolted-on tricks.</p>
+
+<p><br /></p>
+
+<p><a href="https://economist.com/briefing/2025/07/24/ai-labs-all-or-nothing-race-leaves-no-time-to-fuss-about-safety">AI labs’ all-or-nothing race leaves no time to fuss about safety</a> – <em>The Economist</em></p>
+
+<p><a href="https://economist.com/briefing/2025/07/24/what-if-ai-made-the-worlds-economic-growth-explode">What if AI made the world’s economic growth explode?</a> – <em>The Economist</em></p>
+
+<p><a href="https://youtu.be/nyvmYnz6EAg">Why I don’t think AGI is right around the corner</a> – Dwarkesh Patel</p>
+
+<p><a href="https://themarkup.org/artificial-intelligence/2024/07/17/everyone-is-judging-ai-by-these-tests-but-experts-say-theyre-close-to-meaningless">Everyone is judging AI by these tests, but experts say they’re close to meaningless</a> – Jon Keegan, <em>The Markup</em></p>
+
+<p><a href="https://discourse.julialang.org/t/the-use-of-claude-code-in-sciml-repos/131009/8">This Claude thing is pretty dumb, but I had a ton of issues open that require a brainless solution.</a> – Chris Rackauckas, JuliaLang Discourse</p>
+
+<p><a href="https://on.ft.com/4oYOX9U">Why AI won’t take my job</a> – Rana Foroohar, <em>Financial Times</em></p>
+
+    
+<hr>
+
+
+
+    <h2><a href="/2025/08/01/the-vision-for-ai-are-disappointing-so-far.html">The Vision for AI Is Disappointing So Far</a></h2>
+    <h6 class="dateline">Friday, August 01 2025</h6>
+
+    <p>The automobile transformed the American urban and rural landscape from 1910 to 1930. Gone was the manure from city streets and the sight, stench, and sounds of horses. Cities expanded as people moved out from urban centers. Distant recreational activities were suddenly possible, increasing the value of leisure time. Rural isolation ended, along with single-room schoolhouses in favor of consolidated schools. Farmers were freed from the tyranny of their local merchant and could drive to towns. Today’s tech CEOs believe that AI will grow powerful enough to surpass many or all previous human inventions, but the short term promises are considerably underwhelming.</p>
+
+<p>A recent interview on The Verge’s Decoder podcast illustrates the point. AI startup, Caption, uses generative AI to produce short video clips. Caption’s CEO, Gaurav Misra, says the biggest use case for AI video is marketing. Small businesses and individuals can do without hiring videographers or learning to shoot and edit video. Misra promises to democratize advertising. Perhaps a boon for some, though hardly revolutionary.</p>
+
+<p>Visions from other elsewhere are similarly narrow. Agentic AI promises to reduce the burden of completing online tasks like booking flights and compiling slides. Google’s AI Applications page mentions things like “data analysis” and “increased efficiency”. On Internet forums you will find those waxing about AI being a game changer for increasing blog post output.</p>
+
+<p>Some, like Anthropic CEO Dario Amodei, predict AI could increase GDP in developed countries to a sustained 5-10% per year. This would mean a doubling roughly every ten years, a rate of economic change humans have never seen before. But are we going to get there by writing more mediocre blog posts? Are we going to see massive GDP growth because AI manage our online branding by outputting a deluge of content that maximizes engagement and purchasing? Will it come from small efficiency gains in existing business operations, like summarizing meetings?</p>
+
+<p>The answer is almost certainly “no”. Real change will come from real innovation — completely new products that will change how we live, like the automobile. We have not yet imagined how AI will plug in to society to effect such change. The biggest bottleneck may not be technical, but human ingenuity for finding applications.</p>
+
+<p>Generative AI may yet change the world. But for now, it mostly wants to sell you things efficiently.</p>
+
+<p><br /></p>
+
+<p>Robert Gordon, 2016. <em>The Rise and Fall of American Growth</em>. Princeton University Press, Chapter 5.</p>
+
+<p><a href="https://www.theverge.com/decoder-podcast-with-nilay-patel/712542/captions-ceo-gaurav-misra-interview-deepfakes-ai-misinformation">We are not ready for better deepfakes</a></p>
+
+<p><a href="https://www.economist.com/podcasts/2025/07/31/artificial-intelligentsia-an-interview-with-the-boss-of-anthropic">Artificial intelligentsia: an interview with the boss of Anthropic</a></p>
+
+    
+<hr>
+
+
+
+    <h2><a href="/2025/05/28/Sam-and-Jony-partnership.html">Sam and Jony Partnership</a></h2>
+    <h6 class="dateline">Wednesday, May 28 2025</h6>
+
+    <p>Sam Altman and Jony Ive a few days ago announced an <a href="https://openai.com/sam-and-jony/">integration between OpenAI and Jony Ive’s startup</a>, in a statement resembling a wedding announcement. I was skeptical of this partnership, and was surprised to see many tech commentators and podcasters largely positive about it. I see Jony Ive’s greatest work being behind him. Bringing him back to consumer electronics feels like a misstep. That’s why I was very pleased when I read Jason Snell’s thoughtful piece <a href="https://sixcolors.com/post/2025/05/sam-and-jony-and-skepticism/">voicing similar doubts</a>.</p>
+
+<p>I agree with Snell: there is no evidence that Ive can innovate today the way that he did when he was working with Steve Jobs. Jony is an incredible designer, but he also had an incredible partner in Steve — someone who tempered aesthetics with usability. When Jony was given full creative control over Apple’s design processes, across hardware and software, his instincts went unchecked. He lacked the practical sensibility that Steve brought to the relationship, and the products made some weird tradeoffs for form over function.</p>
+
+<p>Sam and Jony now claim to be working on a new central device, something beyond the phone and personal computer. But if no one is grounding the design process in the functional needs of regular people, I do not have high expectations for this new relationship.</p>
+
+    
+<hr>
+
+
+
+    <h2><a href="/2025/04/13/I-started-a-new-hobby.html">I started a new hobby</a></h2>
+    <h6 class="dateline">Sunday, April 13 2025</h6>
+
+    <p>I started photography.</p>
+
+<p>This is the hobby I told myself never to get into specifically because I knew that I would get really into it.
+It combines all elements of a good hobby: gadgets, science, and creativity.
+It gets you outside.
+The problem is the cost.
+It seemed too easy to spend a lot.</p>
+
+<p>Some time last year I discovered that the iPhone has a feature where the lock screen can <a href="https://www.theverge.com/23461505/iphone-ios-16-lock-screen-photo-shuffle-nature-quick-tip-how-to">rotate through photos</a> from your library based on categories.
+I picked nature.
+After several months, I noticed that there were certain photos I liked a lot more than others.
+They were all taken with real cameras, not a smartphone.
+Like an old DSLR or an old Sony point-and-shoot I had ten years ago.
+I still liked those photos more than the ones taken on whatever latest iPhone I was carrying around.</p>
+
+<p>So now I have a camera.
+The Nikon Z 5 with the 24-200 mm zoom lens.
+I specifically did not want the best camera, and the lens seems pretty good.
+It’s be better than anything I’ve ever used, that’s for sure.</p>
+
+<p>Anyway, take a look.
+There’s a new Photography item in the left menu that takes you to a gallery.</p>
+
+<p>Oh and I decided to make a Sports section too.
+We’ll see how long that lasts.</p>
+
+    
+<hr>
+
+
+
+    <h2><a href="/2025/02/17/Liberalism-in-2025.html">Liberalism in 2025</a></h2>
+    <h6 class="dateline">Monday, February 17 2025</h6>
+
+    <p>Late last decade <em>The Economist</em> issued a manifesto and essay defending liberalism in the 21st century. Rereading it seven years later, it is not clear that the world has yet heard the call. President Biden’s term did not shore up America’s democracy against further backsliding, leaving it vulnerable to a second Trump presidency. Europe still hasn’t found its backbone.</p>
+
+<p>What does this mean for science? Higher tariffs and mass government layoffs spell disaster for science funding. I expect delays in delivery of crucial technologies and medicines. Well-funded incumbants will be able to navigate the chaos, but emerging and capital-intensive technologies will struggle to get enough funding.</p>
+
+<p>The essay is worth a re-read at the outset of an uncertain era in the mid-2020s.</p>
+
+<p><a href="https://www.economist.com/leaders/2018/09/13/a-manifesto-for-renewing-liberalism">A manifesto for renewing liberalism</a></p>
+
+<p><a href="https://www.economist.com/essay/2018/09/13/the-economist-at-175">The Economist at 175</a></p>
+
+    
+<hr>
+
+
+
+    <h2><a href="/2024/07/16/Relentless-technological-progress.html">Sustained Economic Growth Comes From Relentless Technological Progress</a></h2>
+    <h6 class="dateline">Tuesday, July 16 2024</h6>
+
+    <p>Daniel Susskind writes in the FT urging the new UK government to <a href="https://www.ft.com/content/f08e2a66-b2ee-4def-b6b2-315260905a89">invest in science and technology</a> and the people that drive their development in order to deliver the economic growth that Keir Starmer’s government promises. He writes the following of the mechanisms of growth:</p>
+
+<blockquote>
+  <p>[T]he little we do know suggests that it does not actually come from the world of tangible things, but rather from the world of intangible ideas…. Or, more simply, sustained economic growth comes from relentless technological progress.</p>
+</blockquote>
+
+<p>Too often governments focus on the trappings of economic growth — tangible things like housing and roads — but fail to invest adequately in the furnace that drives it: the discovery and deployment of useful ideas.</p>
+
+<p>He rightly points out that leaders often have little control over the actual drivers of economic growth, certainly not within short terms that they occupy office. But if the furnace of economic productivity is fed, and the pipeline from that furnace to deployment of technologies is properly maintained, then tangibles like faster trains and better roads are the result. Productivity rises, as well as quality of life. Just not on the timescale of an election cycle.</p>
+
+<p>I partly quibble with Susskind’s characterization that there is no lever for economic growth. The levers are investment in basic research, careful nurturing of promising technologies, and efficient deployment of the most promising of those. The process is not simple, nor a fast-acting one. Technological progress compounds, but only so long as governments make regular investment and smart choices.</p>
+
+<p>I also want to nitpick the notion that new ideas will come less from humans and more from technology. On this Susskind writes:</p>
+
+<blockquote>
+  <p>The current century will be different. New ideas will come less frequently from us and more from the technologies around us. We can already catch a glimpse of what lies ahead: from large companies like Google DeepMind using AlphaFold to solve the protein-folding problem to each of us at our desks using generative AI — from GPT to Dall-E.</p>
+</blockquote>
+
+<p>Humans are still the agents of technologies like AlphaFold and generative AI. They choose the questions to ask and direct the process. Even if these products do begin formulating meaningful scientific questions on their own, humans will still choose which questions to pursue based on what they perceive as having the most value; the technologies are not autonomously identifying and solving problems. And when they start doing so, it will be for the benefit and with the consult of humans.</p>
+
+    
+<hr>
+
+
+
+    <h2><a href="/2024/05/24/The-Full-Stack.html">The Full Stack</a></h2>
+    <h6 class="dateline">Friday, May 24 2024</h6>
+
+    <p>The modern economy runs on scientific, engineering, and manufacturing progress. J. Bradford DeLong, in his grand narrative <a href="https://www.hachettebookgroup.com/titles/j-bradford-delong/slouching-towards-utopia/9780465019595/?lens=basic-books"><em>Slouching Towards Utopia</em></a>, describes modern history as being driven by economics. The modern era was brought into existence by the development of the modern corporation, globalization, and the industrial laboratory. All of these components are necessary. Michael Strevens paints a similar picture in portions of his book, <a href="https://wwnorton.com/books/9781631491375"><em>The Knowledge Machine</em></a>.</p>
+
+<p>What many miss is the importance of nurturing all three of these ingredients. Politicians and administrators want the niceties that the confluence of these institutions brings and they want them now. They focus on the institutions closest to the output end of the pipeline, the part where the emerging product is becoming visible. The exciting part. Money then gets funneled to the last mile of the stack while input is neglected. This is a mistake. I will argue why governments must consider the full stack and not lose sight of the slower moving, but perhaps even more crucial, elements of the pipeline.</p>
+
+<p>To mix metaphors, the technological stack can be thought of as a house. Basic science is the foundation. Here lies the forefront of human knowledge. It is the cutting edge. How the technological foundation is built will determine how the rest of the building can be constructed. This means choosing the right questions to pursue with a balance of scattershot, high-risk high-reward type research and clear pathways to practical technologies. The goal is to surface interesting questions that will open avenues that contain yet more interesting questions. From there applied science and engineering science take some of that basic knowledge and explore how it might be made into useful technologies. After applied science is the engineering phase. Ideas are worked until they can be made useful give the wants and needs of society.</p>
+
+<p>Manufacturing is the next layer of the stack. By this I do not merely mean making the thing. Manufacturing is itself a complicated globe-spanning pipeline that includes procurement of raw materials and processing of those materials. Components fashioned are then shipped to hubs for final assembly. The process is an engineering effort that leads to economies of scale to make products affordable to consumers. Simply engineering a new product is not enough if producing it is expensive. An entirely different kind of engineer is required to scale an idea so that economies of scale can work its magic to successfully bring a product to market.</p>
+
+<p>My focus is on the under-funded, slow moving bottom of the stack: basic science. Practitioners of basic science are often poor marketers of their craft. They often resent the market economy and do not recognize their place within it. They see themselves as outside of it. When describing the importance of their profession they talk in romantic terms, as being “passionate” and describing the innate curiosity of humankind as the driving force. This is all well and good (and is indeed the reason that I am a scientist) but another sense of “greater good” is the economic one: building the furnace of the economic engine that brings down the price of goods, raises standards of living, delivers medicines. Science is the bedrock of this economic movement that has been responsible for the enormous reduction in poverty over the long twentieth century. The sooner scientists recognize our role within the economic engine instead of resenting it, the better we can make the case for significant increases in basic research spending.</p>
+
+<p>Now that I have obtained my Ph.D. and have achieved some stability as a working scientist, this topic will become a focus. What can be done to reverse the trend of declining spending on basic research? How can we increase the appetite for risk and take more chances on promising technologies? These and other questions will be explored in these virtual pages.</p>
+
+    
+<hr>
+
+
+
+    <h2><a href="/2023/10/31/more-podcast-paywlls.html">More Podcast Paywalls</a></h2>
+    <h6 class="dateline">Tuesday, October 31 2023</h6>
+
+    <p><em>The Economist</em> has moved all of its podcasts <a href="https://www.economist.com/podcasts/2023/09/14/introducing-our-new-subscription-economist-podcasts-">behind a paywall</a> except for its daily news show <em>The Intelligence</em>.
+This is disappointing because I somewhat regularly would share episodes with friends who don’t subscribe to the newspaper.
+It also means that the analogy of podcasts being like radio that you download no longer holds.
+Another idea recedes into the past.
+I get the move — the advertising market is drying up and many independent podcasts are moving toward membership models.
+Spotify has pushed the industry towards subscription and now <a href="https://podcasters.apple.com/878-subscriptions">Apple Podcasts</a> has gotton on board.
+Still, if <em>The Economist</em> is going to move its content behind a paywall, at least they have done it the right way.
+You can still use any podcast player to listen to shows.
+They provide a subscriber RSS feed in addition to hooking into the subscriber features of the big podcast apps. This is definitely the way to go and I’m glad they are continuing to use RSS instead of making up their own to do it.</p>
+
+<p><a href="https://garrek.org/2023/05/23/The-New-York-Times-Makes-a-Podcast-like-App.html">Previously I posted</a> about <em>The New York Times</em> launching its own audio app.
+I still think this is doomed to fail. They have since launched more shows that are available only on the app.
+I don’t know their numbers, but I suspect they won’t see a lot of growth in the long run.
+Thinking big picture, the internet is now going through a phase of decentralization.
+This is most apparent in the social media space with the rise of new microblogging platforms like Mastodon and Threads — and more importantly <a href="https://www.theverge.com/2023/4/20/23689570/activitypub-protocol-standard-social-network">ActivityPub</a> which allows them all to interconnect — and the slowly disintegrating Twitter/X.
+Podcasts have always used use-it-anywhere RSS feeds and I don’t see that changing any time soon.</p>
+
+    
+<hr>
+
+
+
+    <h2><a href="/2023/06/23/newer-Macs-support-for-lossless-audio.html">Apple Silicon Macs have a DAC that supports high-impedance headphones</a></h2>
+    <h6 class="dateline">Friday, June 23 2023</h6>
+
+    <p>I bought the <a href="https://www.soundguys.com/blue-mo-fi-review-2654/">Blue Mo-Fi headphones</a> shortly after they came out in 2014.
+They great headphones, but the fake leather on the ear pads have almost completely flaked off and now
+that <a href="https://www.theverge.com/circuitbreaker/2018/7/30/17633144/logitech-acquires-blue-microphones-announcement">Blue has been bought by Logitech</a> and is <a href="https://www.theverge.com/2023/6/8/23589618/logitech-blue-now-yeti-astro-merge-logitech-g-brands">killing the Blue mic brand</a> there is little hope of trying to get replacement parts or repair them in the future (I have tried).
+Besides, <a href="https://marco.org/headphones-closed-portable">they didn’t have stellar reviews</a> when they came out and now I’m getting into high-fidelity audio.</p>
+
+<p>Wading through the online world of audiophile hardware was making me consider buying a DAC and amp in addition to new headphones, but then I found Apple’s Support pages for lossless audio and it appears that Apple Silicon Macs not only support lossless audio output, but also have a built-in DAC and amp that can drive high-impedance headphones. That solves that problem. I’ll just buy some entry-level audiophile headphones and go.
+The built-in hardware is probably not as sophisticated as dedicated hardware, but I doubt I’ll ever be that into the highest-end audio equipment. There are other things to be obsessed about.</p>
+
+<p>I can’t find any information on the built-in DAC or amplifier in System Information, but the
+Audio MIDI Setup app (comes with macOS) allows you to select the input and output sample rate and other settings.</p>
+
+<p>Links to Apple’s support pages:</p>
+
+<h3 id="about-lossless-audio-in-apple-music"><a href="https://support.apple.com/en-us/HT212183">About lossless audio in Apple Music</a></h3>
+
+<blockquote>
+  <p>“The entire Apple Music catalog is encoded in ALAC in resolutions ranging from 16-bit/44.1 kHz (CD Quality) up to 24-bit/192 kHz.”</p>
+</blockquote>
+
+<p>Supported on iPhone, iPad, Mac, HomePod, Apple TV 4K (not greater than 48 kHz), and Android.</p>
+
+<p>This page says only the 14-inch and 16-inch MacBook Pros support native playback up to 96 kHz, but
+I think this is outdated because the other support pages all say otherwise.</p>
+
+<h3 id="use-high-impedance-headphones-with-your-mac"><a href="https://support.apple.com/en-us/HT212856">Use high-impedance headphones with your Mac</a></h3>
+
+<p>Macs introduced in 2021 or later (probably meaning M1 chips or later).</p>
+
+<p>Impedance detection and adaptive voltage output, and built-in digital-to-analog converter (DAC) that supports sample rates up to 96 kHz.</p>
+
+<h3 id="play-high-sample-rate-audio-on-your-mac"><a href="https://support.apple.com/en-us/HT212854">Play high sample rate audio on your Mac</a></h3>
+
+<p>Hardware digital-to-analog converter (DAC) that supports sample rates up to 96 kHz in Macs introduced in 2021 or later (i.e. M1 chips or later).</p>
+
+<h3 id="set-up-audio-devices-on-audio-midi-setup-on-mac"><a href="https://support.apple.com/guide/audio-midi-setup/set-up-audio-devices-ams59f301fda/mac">Set up audio devices on Audio MIDI Setup on Mac</a></h3>
+
+<blockquote>
+  <p>“To set the sample rate for the headphone jack, use the Audio Midi Setup app, which is located in the Utilities folder of your Applications folder. Make sure to connect your device to the headphone jack. In the sidebar of Audio MIDI Setup, select External Headphones, then choose a sample rate from the Format pop-up menu. For best results, match the sample rate for the headphone jack with the sample rate of your source material.”</p>
+</blockquote>
+
+<h3 id="some-recent-reddit-threads-on-the-topic">Some recent Reddit threads on the topic:</h3>
+
+<ul>
+  <li><a href="https://www.reddit.com/r/headphones/comments/10vhk76/macbook_pro_as_a_amp_dac/">MacBook Pro as a AMP &amp; DAC</a></li>
+  <li><a href="https://www.reddit.com/r/BudgetAudiophile/comments/11do0mx/external_dac_for_mac_vs_builtin_mac_dac/">External DAC for Mac vs. built-in Mac DAC</a></li>
+  <li><a href="https://www.reddit.com/r/apple/comments/r5lvmo/new_macbook_pro_m1_builtin_dac_rocks/">New MacBook Pro M1 Built-in DAC Rocks!</a></li>
+  <li><a href="https://www.reddit.com/r/headphones/comments/11s18mz/does_a_dac_make_sense_on_mac_mini_m2/">Does a DAC make sense on Mac mini M2?</a></li>
+</ul>
+
+
+    
+<hr>
+
+
+
+    <h2><a href="/2023/05/23/The-New-York-Times-Makes-a-Podcast-like-App.html">The New York Times Makes a Podcast-like App</a></h2>
+    <h6 class="dateline">Tuesday, May 23 2023</h6>
+
+    <p>The New York Times just released New York Times Audio, an app for “audio journalism”. It curates all of the New York Times podcasts (including a new daily podcast called “Headlines”) as well as podcasts from third parties, like Foreign Policy and This American Life. It will also include audio versions of written articles.</p>
+
+<p>I think it will be difficult to penetrate the pretty well established spoken-word market. Podcasts are dominated by Apple Podcasts, and <a href="https://www.theverge.com/2023/4/18/23688644/spotify-podcast-gimlet-rogan-audiobook-pew">Spotify has had a hard time</a> turning podcasting into a core part of its business. I can see NYT Audio being a niche product that appeals to a small subset of NYT subscribers, but not much more. I’m guessing the goal is to charge a fee for third parties to access NYT subscribers. I don’t really see how this app would generate more revenue from existing subscribers both because I don’t see huge numbers using the app and because podcasts are traditionally free and use open web standards. Again, see Spotify’s and other <a href="https://www.theverge.com/2021/5/13/22433143/castbox-private-rss-feeds-tags-patreon">attempts to make proprietary podcasting formats</a>.</p>
+
+<p>I’ll try the app, but I don’t see it becoming a habit. <a href="https://overcast.fm">Overcast</a> is already on my Home Screen and adding another podcast app is a tall order. If I find something I like, I will most likely just add it to a playlist in Overcast.</p>
+
+    
+<hr>
+
+
+
+    <h2><a href="/2022/12/29/Plastics-are-almost-all-downside.html">Plastics Are Almost All Downside</a></h2>
+    <h6 class="dateline">Thursday, December 29 2022</h6>
+
+    <p>This piece by Judith Enck, a former EPA regional administrator, and Jan Dell, a chemical engineer, in the Atlantic highlight three main problems with plastic recycling.</p>
+
+<ol>
+  <li>The large number of types of plastics make sorting and recycling difficult.
+    <blockquote>
+      <p>Just one fast-food meal can involve many different types of single-use plastic, including PET#1, HDPE#2, LDPE#4, PP#5, and PS#6 cups, lids, clamshells, trays, bags, and cutlery, which cannot be recycled together.</p>
+    </blockquote>
+  </li>
+  <li>Processing plastic waste is toxic and wasteful.
+    <blockquote>
+      <p>Unlike metal and glass, plastics are not inert. Plastic products can include toxic additives and absorb chemicals, and are generally collected in curbside bins filled with possibly dangerous materials such as plastic pesticide containers. According to a report published by the Canadian government, toxicity risks in recycled plastic prohibit “the vast majority of plastic products and packaging produced” from being recycled into food-grade packaging.</p>
+    </blockquote>
+  </li>
+  <li>Recycling plastic is not economical.
+    <blockquote>
+      <p>Yet another problem is that plastic recycling is simply not economical. Recycled plastic costs more than new plastic because collecting, sorting, transporting, and reprocessing plastic waste is exorbitantly expensive. The petrochemical industry is rapidly expanding, which will further lower the cost of new plastic.</p>
+    </blockquote>
+  </li>
+</ol>
+
+<p>In addition, there is a growing body of evidence showing that plastics break down into microplastics that permeate the environment, and humans and animals end up ingesting them. There are microplastics <a href="https://www.ft.com/content/ecf5bf52-bd21-11e9-b350-db00d509634e">in all corners of the earth</a> and researchers have been trying to understand their <a href="https://www.nature.com/articles/d41586-021-01143-3">effects on human health</a>.</p>
+
+<p>This is frankly alarming, and I’ve been more and more shocked every year since the plastics issue has been making it into the mainstream press. I’ve been cutting down on the amount of plastic goods I purchased and several years ago I stopped storing food in plastic containers, opting for metal or glass. Last year, I stopped buying clothing made from synthetic materials (as much as I can), since clothing releases <a href="https://www.nature.com/articles/s41598-019-43023-x">a huge amount of microplastics</a> into the water supply <a href="https://www.theguardian.com/science/2016/sep/27/washing-clothes-releases-water-polluting-fibres-study-finds">in every wash</a>. Now I buy cotton, wool, and linen clothing almost exclusively. I find myself paying more attention to the materials of pretty much every product I plan to purchase. It definitely feels like an uphill battle because of the sheer amount of plastic that is reported to be in our surroundings.</p>
+
+<p><a href="https://www.theatlantic.com/ideas/archive/2022/05/single-use-plastic-chemical-recycling-disposal/661141/">Plastic Recycling Doesn’t Work and Will Never Work</a></p>
+
+    
+<hr>
+
+
+
+    <h2><a href="/2022/12/16/Classrooms-need-to-change-with-generative-AI.html">Classrooms will need to change with generative AI</a></h2>
+    <h6 class="dateline">Friday, December 16 2022</h6>
+
+    <p>Zeynep Tufekci, in an op-ed for the New York Times, ponders the implications of generative AI as we very likely enter the dawn of a new technological era.</p>
+
+<blockquote>
+  <p>Teachers could assign a complicated topic and allow students to use such tools as part of their research. Assessing the veracity and reliability of these A.I.-generated notes and using them to create an essay would be done in the classroom, with guidance and instruction from teachers. The goal would be to increase the quality and the complexity of the argument.</p>
+
+  <p>This would require more teachers to provide detailed feedback. Unless sufficient resources are provided equitably, adapting to conversational A.I. in flipped classrooms could exacerbate inequalities.</p>
+
+  <p>In schools with fewer resources, some students may end up turning in A.I.-produced essays without obtaining useful skills or really knowing what they have written.</p>
+</blockquote>
+
+<p>I 100% agree. The coming sophisticated AI will demand that schools use more labor-intensive teaching methods.
+She is also right that this will exacerbate inequalities unless we as a society put a lot more money into our education systems.</p>
+
+<p><a href="https://www.nytimes.com/2022/12/15/opinion/chatgpt-education-ai-technology.html">What Would Plato Say About ChatGPT?</a></p>
+
+    
+<hr>
+
+
+
+    <h2><a href="/2022/11/04/TransferMatrix.jl-Release.html">Introducing TransferMatrix.jl</a></h2>
+    <h6 class="dateline">Friday, November 04 2022</h6>
+
+    <p>I’m excited to introduce my first software package written for broad use. <a href="https://github.com/garrekstemo/TransferMatrix.jl">TransferMatrix.jl</a> is a general 4 x 4 transfer matrix implementation written in the <a href="https://julialang.org">Julia programming language</a>. The <a href="https://en.wikipedia.org/wiki/Transfer-matrix_method_(optics)">transfer matrix method</a> analyzes the propagation of an electromagnetic wave through a multi-layered medium. You can compute the reflectance and transmittance spectra, as well as calculate the electric field profile as a function of position within the medium.</p>
+
+<figure>
+	<img src="/assets/images/posts/TransferMatrix.jl-quarter-wave.png" alt="Reflectance and transmittance of a quarter-wave mirror" />
+    <figcaption>Reflectance and transmittance of a quarter-wave mirror.</figcaption>
+</figure>
+
+<p>I started with some simple code in Python for my own projects and sharing it with other in my lab, but it had some limitations and I was growing to love coding in Julia. I didn’t want to switch to Python to do just this one thing. I started rewriting the code in Julia on the weekends, but I didn’t just want to reimplement what I had done in Python. You see, I’ve found that there are a lot of transfer matrix implementations on the web. It seems like every grad student doing something in optics or thin films writes one, plops it on the web, and lets it get stale when they graduate. A simple 2 x 2 algorithm is not hard to write but it can’t be fully generalized. I was also frustrated that there are all of these papers that try to improve the method (transfer matrices, apparently, are still an active area of research), but the code is difficult to read, poorly documented, untested, used poor programming practices, and abandonded.</p>
+
+<figure>
+	<img src="/assets/images/posts/TransferMatrix.jl-electric-field-profile.png" alt="Electric field profile through a quarter-wave mirror" />
+    <figcaption>Electric field profile through a quarter-wave mirror.</figcaption>
+</figure>
+
+<p>I wanted to write something based on the latest developments that dealt with the shortfalls of the traditional transfer matrix (singularities and numerical instabilities), while being highly modular, reusable, and with great documentation and tutorials. And I wanted it in Julia to take advantage of Julia’s speed and the scientific community over there.</p>
+
+<p>High modularity means that each function is as small as it can be. This makes it easy for someone to replace one or more steps with something custom to test a new idea and improve on the method in their own research. It means that it is easy to test and easy to read the code (in pure Julia).</p>
+
+<p>Julia’s package manager makes it easy to install. Everything is <a href="https://garrek.org/TransferMatrix.jl/stable/">documented</a> and I have written an extensive <a href="https://garrek.org/TransferMatrix.jl/stable/guide/tutorial/">tutorial</a> — all of the code in the tutorial can be run as is.</p>
+
+<p>Sharing and reuse is easy. You can make a config file with all of the simulation parameters (even the refractive index data from a file) and reproduce the results for that structure. You can create multiple variations easily this way and share the exact configuration that you used with others. Even complicated periodic structures are easy to make this way.</p>
+
+<p>This implementation is based on the latest research in general transfer matrix methods and every piece of research that I use is cited at the function level, complete with the DOI so that you can follow everything that has been done and make precise modifications. A full <a href="https://garrek.org/TransferMatrix.jl/stable/bibliography/">list of references</a> is also on the documentation website.</p>
+
+<p>My hope is for this to be at least a first stop for someone looking for a transfer matrix algorithm. If the community likes it, then I would like this to become a part of a standard set of science or physics packages that currently exist in the Julia ecosystem. Ease of use and readability really were my priorities — there is little boilerplate code. And Julia’s speed means you can do wavelength and angle-tuning simulations to produce 2D contour plots quickly. Together with the generality of this implementation based on current research, I hope that others can use TransferMatrix.jl to try out new ideas.</p>
+
+<p><a href="https://github.com/garrekstemo/TransferMatrix.jl">Try it out</a> and please leave feedback!</p>
+
+    
+<hr>
+
+
+
+    <h2><a href="/2022/11/01/More-on-sewage.html">More on sewage monitoring</a></h2>
+    <h6 class="dateline">Tuesday, November 01 2022</h6>
+
+    <p>Sewage monitoring is low-level persistent in the news.
+Former members of <a href="https://www.nytimes.com/2022/10/19/opinion/covid-pandemic-failures.html">President Biden’s Covid-19 advisory board</a> write in the New York Times</p>
+
+<blockquote>
+  <p>the national reporting system for collecting and testing samples from wastewater treatment systems for Covid remains limited, uncoordinated and insufficiently standardized for a robust national surveillance system. If public health officials can’t track the data to mobilize a response to a crisis, the information that has been collected doesn’t do much good.</p>
+</blockquote>
+
+<p>I had thought a program like this would have made it into the recently-passed infrastructure package. It would be a shame if health and safety monitoring systems (like wildfire or region-wide earthquake monitoring) were not built or strengthened in the near future.</p>
+
+<p>Here’s more details on sewage on Jim Al-Khalili’s excellent BBC podcast, The Life Scientific:</p>
+
+<p><a href="https://www.bbc.co.uk/programmes/m001cx0m">Why study sewage?</a></p>
+
+    
+<hr>
+
+
+
+    <h2><a href="/2022/10/26/Jumping-over-the-time-to-first-plot-problem-in-Julia.html">Jumping over the time-to-first-plot problem in Julia</a></h2>
+    <h6 class="dateline">Wednesday, October 26 2022</h6>
+
+    <p>I’ve been using Julia for about a year now after moving my entire workflow
+from Python.
+When I sometimes revisit Python I am so glad I made the switch. No regrets whatsoever. Julia still has one pain point, 
+which is time to first execution (TTFX) or time to first plot (TTFP)<sup id="fnref:fn_22021026_1"><a href="#fn:fn_22021026_1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup>.
+But even this “pain point” is somewhat bizarre because Julia is a compiled language. Of 
+course there is going to be a compilation step that will make it slow to get going. What makes this a pain
+point is the desire to have it all — “we are greedy,” <a href="https://julialang.org/blog/2012/02/why-we-created-julia/">say the founders</a> of the language.
+Julia wants to be interactive and dynamic, but compiled and fast.
+But the fact that it’s compiled means that when a user wants to make a simple line plot it takes two minutes to precompile the plotting library, compile the plotting functions, and finally show the plot on screen.
+Only after that initial setup are all subsequent plots instant — as long as you keep your session active. There are many more talented programmers in the community than me, and one user in a <a href="https://discourse.julialang.org/t/very-slow-time-to-first-plot-2022/88968/27">recent Discourse thread</a> explained the tradeoff and the difficulty in reducing compile time:</p>
+
+<blockquote>
+  <p>A tangent: I believe it is worthwhile to discuss why this is such a phenomenally big problem in julia. Julia has two very special features other languages do not share: (1) multimethods as the fundamental principle for the entirety of the ecosystem and (2) compiled code. It is very difficult to know what code you need compiled and to not discard the vast majority of already compiled code when importing new libraries that add new methods for pre-existing functions. No one has had to deal with this problem before julia. It is being slowly dealt with. Sysimages basically carry the promise that no significant amount of new methods will be defined, hence they can cache more compiled code (this is very oversimplified borderline misleading explanation).</p>
+</blockquote>
+
+<p>That last point about sysimages is interesting. Making a sysimage in Visual Studio Code is a big workflow improvement, and I recommend all Julia users try it. It essentially compiles all the libraries from your project, and any other files you specify, and puts them into a file. I guess you could say it freezes your Julia session to use later. This is faster than precompiling each time. It’s built into the Julia extension and easy to set up. Detailed instructions are on the <a href="https://www.julia-vscode.org/docs/dev/userguide/compilesysimage/">Julia VS Code extension website</a>, but in a nutshell the steps are:</p>
+
+<ol>
+  <li>Open your project folder in VS Code with the <a href="https://code.visualstudio.com/docs/languages/julia">Julia extension installed</a> (and make sure it’s activated)</li>
+  <li>Make a new folder called <code class="language-plaintext highlighter-rouge">.vscode</code></li>
+  <li>Make a file called <code class="language-plaintext highlighter-rouge">JuliaSysimage.toml</code> in that folder</li>
+  <li>Paste the <code class="language-plaintext highlighter-rouge">[sysimage]</code> text below this list into that file</li>
+  <li>Select <code class="language-plaintext highlighter-rouge">Tasks: Run Build Task</code> and then <code class="language-plaintext highlighter-rouge">select Julia: Build custom sysimage for current environment</code></li>
+  <li>Check the <code class="language-plaintext highlighter-rouge">useCustomSysimage</code> setting in the Julia extension settings in VS Code</li>
+  <li>Restart the Julia REPL. (Hit the trash can button and open a new REPL session from the Command Palette)</li>
+</ol>
+
+<p>Copy and paste this into a <code class="language-plaintext highlighter-rouge">JuliaSysimage.toml</code> file:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[sysimage]
+exclude=[]   # Additional packages to be exlucded in the system image
+statements_files=[]  # Precompile statements files to be used, relative to the project folder
+execution_files=[] # Precompile execution files to be used, relative to the project folder
+</code></pre></div></div>
+
+<p>The extension automatically uses the sysimage instead of precompiling your project. And now your project should run much faster and TTFX will be significantly sped-up. On my M1 iMac I use the powerful but compiler-heavy <a href="https://docs.makie.org/stable/">Makie</a> plotting library and I went from waiting about 2 minutes for precompilation and maybe 30 seconds for that first plot to almost no compile time, and execution in less than a second. (Other people have properly benchmarked this, I’m not going to do that here). I see similar results on my 2019 Intel Macbook Pro.</p>
+
+<p>But here’s what really got my workflow sailing. I’m PhD student working in experimental physics. I have a lot of messy data and I need to make a ton of plots to explore that data. I have a top-level folder for my experiment.
+In there I have separate folders for raw data, daily scripts, and results/plots.
+Then I have a <code class="language-plaintext highlighter-rouge">src</code> folder where plotting, analysis, and file reading/writing scripts go. The files in <code class="language-plaintext highlighter-rouge">src</code> rarely change, so that means I can add them to the <code class="language-plaintext highlighter-rouge">execution_files</code> section in my <code class="language-plaintext highlighter-rouge">JuliaSysimage.toml</code> file. These scripts get compiled along with all my plotting packages into the sysimage. This makes <em>everything</em> fast.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>My Experiment Folder
+|
+|_.vscode
+|   |_JuliaSysimage.toml
+|_data
+|   |_221015
+|   |_221025
+|   |_...
+|_lab_notebook
+|   |_221015.jl  # julia scripts for that experiment day
+|   |_221025.jl
+|_results
+|   |_plots
+|      |_221015
+|      |   |_fig1.pdf
+|      |_...
+|
+|_src
+|   |_plotting_functions.jl
+|   |_data_io.jl
+|   |_lab_notebook_template.jl
+|   |_analysis_functions.jl
+|
+|_JuliaSysimage.dylib
+|_Project.toml
+|_Manifest.toml
+|_...
+</code></pre></div></div>
+
+<p>For the above example, I would add the files</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>execution_files=["src/plotting_functions.jl", "src/data_io.jl", "src/analysis_functions.jl"]
+</code></pre></div></div>
+
+<p>to <code class="language-plaintext highlighter-rouge">JuliaSysimage.toml</code>. As long as I don’t change these files, their functions load instantly. The functions in these files are used in my <code class="language-plaintext highlighter-rouge">lab_notebook</code> files with an <code class="language-plaintext highlighter-rouge">include()</code> statement at the top (e.g. <code class="language-plaintext highlighter-rouge">include("plotting_functions.jl")</code>). For example, I have custom plotting functions and themes that make an interactive grid of plots with toggles and settings so I can look at and compare data exactly the way I want. Recreating the sysimage a couple of times a month (or even once a week) is not a big deal compared to the time savings I get every day.</p>
+
+<p>As an aside, I recommend everyone have some kind of setup like this where you reuse plotting and analysis functions, no matter what language you’re using. If you are editing these functions every day then either these scripts have not settled down yet or something isn’t quite right with the workflow. It is worth it to sit down and figure out what tools you need to build to smooth out day-to-day computational tasks instead of writing scripts from scratch each time you have to make a graph of some data. For the most part, the file format for my data is the same, so I only need a handful of plotting and data read/write functions. Once they’re written, that’s it. I can move on.</p>
+
+<p>As many others have said, the time-to-first-X problem is a priority for the Julia developers. The version 1.8 update this year saw some speedups,
+and I think the expectation is that this will continue in future 1.x releases. 
+These improvements to the compilation stage, both in VS Code and the work being done in the language itself, have surpassed my expectations. I thought Julia would always have an initial lag and that people would have to make hacks and workarounds. This really is exciting, and there is a lot to look forward to in Julia’s future.</p>
+
+<hr class="ref" />
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:fn_22021026_1">
+      <p>The plotting libraries generally take the longest to precompile. <a href="#fnref:fn_22021026_1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+    
+<hr>
+
+
+
+    <h2><a href="/2022/10/17/The-Structures-of-the-Scientific-Enterprise.html">The Structures of the Scientific Enterprise</a></h2>
+    <h6 class="dateline">Monday, October 17 2022</h6>
+
+    <p>Geoff Anders of Leverage Research, a non-profit that writes scientific papers without publishing them in peer-reviewed journals (so it seems), <a href="https://www.palladiummag.com/2022/10/10/the-transformations-of-science/">writes in Palladium Magazine</a> a brief summary of the role of science through the ages. His overall theme is clear from the section headers. He sees science as going from largely an endeavor of wealthy individuals to one that obtained authority from the state. I quibble with parts of Anders’s historical narrative, but there are some good ideas in his conclusion.</p>
+
+<p>I’m not sure how big of a phase “science as a public phenomenon” was. He makes it seems like science was a circus show in the 16th, 17th, and parts of the 18th century. I think this an exaggeration, but I’m not a science historian (and neither is he). Anders also relies too heavily on a single instance of science being used authoritatively (King Louis XVI’s commission to investigate Franz Mesmer’s methods of apparent hypnosis) to make the case that science had become broadly authoritative. This strikes me as a weak way to make the argument. I would be hesitant to say science has ever had the authority he seems to imply that it had. A massive influence? Definitely. A justification? Probably, and sometimes a scapegoat. But I wouldn’t call it an “authority”. I think if one were to use that word it needs a bit more context, which Anders does not provide.</p>
+
+<p>His section on science and the state overemphasizes military technologies and glosses over quality of life improvements that raised large parts of the global population out of abject poverty (see Bradford DeLong’s excellent grand narrative, <a href="https://www.basicbooks.com/titles/j-bradford-delong/slouching-towards-utopia/9780465019595/"><em>Slouching Towards Utopia</em></a> published recently).</p>
+
+<p>The one area that I think Anders has something going for him is his conclusion. The scientific community is at some sort of crossroads in terms of funding and elements of how it is structured. I see a lot of complaints that funding for blue-sky ideas is drying up and there are reports that <a href="https://www.science.org/content/article/professors-struggle-recruit-postdocs-calls-structural-change-academia-intensify">hiring is becoming difficult</a>. Some of this likely has to do with how universities are funded — and that is a whole other can of worms.</p>
+
+<p>I like Anders’s idea of splitting science into two camps: exploratory science and settled science. At first glance one might say that science <em>is</em> exploratory and that the settled part is taken care of by applied scientists and engineers, but I think Anders’s argument is more subtle. He says that funding might be restructured so that exploratory science is decentralized and career tracks are split into “later-state” and “earlier-stage” science. I would take this idea further. First, by establishing an exploratory wing of science its mission will be to take big risks with the expectation of failure — and failures should be reported and praised. This wing would be analogous to the US’s DARPA initiative.</p>
+
+<p>Second, a later-stage wing of science wouldn’t have to feign novelty where none exists. They would be free to solidify existing science<sup id="fnref:fn1_221017"><a href="#fn:fn1_221017" class="footnote" rel="footnote" role="doc-noteref">1</a></sup>. Maybe they can bundle a few studies from the exploratory stage and make that science robust, ready to pass the baton to the applied scientists and engineers.</p>
+
+<p>I think the separation into early-phase and late-phase science would be a boon for the scientific endeavor. It would strengthen the pipeline from basic science to societal improvements. It would also clarify the mission of any given scientific project. Having a later-stage project would carry just as much importance as an exploratory project within its domain, and exploratory labs would be free to try out pie-in-the-sky ideas without fear of blowback from funding agencies.</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:fn1_221017">
+      <p>I’m not sure how this has to do with Anders’s idea of “don’t trust the science”. I think he is throwing a bunch of ideas together without a clear thread (what does decentralization get you besides being hip with the crypto crowd?), but there are some nuggets in here worth thinking about. <a href="#fnref:fn1_221017" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+    
+<hr>
+
+
+
+    <h2><a href="/2022/10/08/Sewage-Monitoring.html">Sewage Monitoring</a></h2>
+    <h6 class="dateline">Saturday, October 08 2022</h6>
+
+    <p>I have seen a few articles in the press this year on sewage monitoring for tracking disease and the health of a city. Sara Reardon writing for Scientific American reports on how <a href="https://www.scientificamerican.com/article/wastewater-monitoring-offers-powerful-tool-for-tracking-covid-and-other-diseases/?amp=true">wastewater monitoring has been taken up as a tool by the CDC</a> and local communities for tracking COVID and other diseases in the US. The impact of wastewater data aggregation and analysis could be huge — in both the positive and negative. It strikes me that governments are largely reactionary to changes in public health. Little attention is paid to preventative measures. This could change that.</p>
+
+<p>Thinking more broadly, I think this tool has much greater potential than disease tracking. Combining wastewater data with other inputs could be a monumental shift in understanding the health of a community on quite a granular level — both in terms of what substances are circulating in a community and the potential for real-time fidelity. You can imagine wastewater data being combined with data from hospitals, air quality monitoring, or even news of major events affecting the mental health of a city.</p>
+
+<p>A recent article in The Economist gives a broad perspective <a href="https://www.economist.com/international/2022/09/07/how-covid-19-spurred-governments-to-snoop-on-sewage">on wastewater monitoring and how it is being used globally</a>, including the benefits and potential dangers of sewage data collection.</p>
+
+    
+<hr>
+
+
+
+    <h2><a href="/2022/10/07/Quasiparticles-are-Real.html">Quasiparticles and What is "Real"</a></h2>
+    <h6 class="dateline">Friday, October 07 2022</h6>
+
+    <p>This is a bit of an old post, but one that I liked a lot considering that I am also in the business of manufacturing quasiparticles (mine are polaritons). 
+It’s fascinating that the quasiparticles that appear because of material excitations can be described using many of the same models as “real” elementary particles.</p>
+
+<p>Read the post on <a href="http://nanoscale.blogspot.com/2022/06/quasiparticles-and-what-is-real.html">nanoscale views</a> by Douglas Natelson.</p>
+
+    
+<hr>
+
+
+
+    <h2><a href="/2022/09/29/Martin-Rees-Economist-interview.html">Martin Rees: How Science Can Save the World</a></h2>
+    <h6 class="dateline">Thursday, September 29 2022</h6>
+
+    <p>Martin Rees talks to The Economist’s Alok Jha on existential risks to civilization and the 
+importance of science and science communication in the 21st century running up to his new book
+coming out this November (I already pre-ordered).</p>
+
+<p>There is a constant buzz on Twitter about the pains of academic research.
+Martin Rees agrees that aspects of university research needs to be changed.
+Administrative bloat and scientists staying in their positions past retirement age discourage blue-sky research and gum up the promotion pipeline.
+He criticises the scope of UK ARIA (Advanced Research and Invention Agency) program, which is supposed to function similar to the US’s high-risk high-reward DARPA (Defence Advanced Research Projects Agency) program:</p>
+
+<blockquote>
+  <p>In that perspective, it’s just a sideshow. 
+    The ministers say this is a wonderful way in which scientists can work in a long-term way on blue skies research without too much administrative hassle. 
+    They’d be doing far more good if they reduced the amount of such administrative hassle in those who are supported by UKRI,
+    which is supporting fifty times as much research as ARIA will ever do.</p>
+</blockquote>
+
+<p>Science in the last ten years or so, I feel, has really gotten bogged down.
+I agree that blue-sky thinking has sort of gone out of fashion.
+How much this is a function of perverse publishing incentives, administrative hurdles, or the constant firehose of publications to keep up with, I don’t know.
+I’m glad a prominent and highly respected figure in the science community is calling out the inefficiencies and problems in the way science is practiced.</p>
+
+<p>Listen on The Economist website: <a href="https://www.economist.com/podcasts/2022/09/20/how-science-can-save-the-world">How science can save the world</a> <br />
+Listen on <a href="https://overcast.fm/+jFuIKsZ4">Overcast podcast app</a>.</p>
+
+    
+<hr>
+
+
+
+    <h2><a href="/2022/09/27/Webb-Space-Telescope-Images.html">Webb Space Telescope Images</a></h2>
+    <h6 class="dateline">Tuesday, September 27 2022</h6>
+
+    <p>The modern news cycle is a periodic deluge. I don’t get the sense that the James Webb Space Telescope launch has hit the public in the same way that the Hubble did. It seems like everyone moved on pretty quickly. I can’t help but keep going back to the Webb images and looking at them in awe, with a much better viewing experience on modern computer displays unavailable to those seeing the Hubble images for the first time.</p>
+
+<p><a href="https://webbtelescope.org">View Webb Space Telescope images</a></p>
+
+    
+<hr>
+
+
+
+    <h2><a href="/2021/08/19/future-of-scientific-software-development.html">The Future of Software Development in Science</a></h2>
+    <h6 class="dateline">Thursday, August 19 2021</h6>
+
+    <p>The future of scientific software development will be cloud-based
+together with apps that use web technologies rather than
+platform-specific (“native”) applications despite recent mobile
+computing hardware advances. Advancements in computing tools and
+languages are already changing science to, for example, improve
+reproducibility of results and facilitate better collaboration. These
+same tools are helping to move development itself into the cloud and are
+migrating the community to web-based technologies and away from native
+apps and frameworks.</p>
+
+<p>Mobile development for the scientific community now means programming on
+a laptop since there are very few scientific tools available on tablets
+and phones. “Mobile” in the everyday sense refers to, of course,
+smartphones and tablets. Eventually, scientific programming will move to
+these mobile platforms. I’m thinking of a tablet that can perform
+analysis, run a notebook environment, or even run certain kinds of
+simulations. You will be able to hook it up to measurement devices<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup> or
+controllers. At conferences, you will be able to answer questions by
+running your actual simulation live with different variables and show it
+to someone. There is a lot of great desktop-class software, proprietary
+and open-source, that powers science today. None of this will be a part
+of the mobile future. It will all be done in the cloud and with web
+technologies.</p>
+
+<p>The discussion around native versus web technology frameworks is already
+robust in programming circles<sup id="fnref:2"><a href="#fn:2" class="footnote" rel="footnote" role="doc-noteref">2</a></sup>, so I approach the topic as a
+researcher looking for mobile and cross-platform solutions. I try to
+answer these two questions:</p>
+
+<ul>
+  <li>What does software development look like in the future for science?</li>
+  <li>How are existing cross-platform and mobile frameworks  shaping the future of scientific development?</li>
+</ul>
+
+<p>I briefly describe the problems of the current fragmented ecosystem, how
+that ecosystem is converging on open-source tools, and then how the
+emerging cloud-based computing paradigm will shape scientific computing
+on mobile devices.</p>
+
+<h3 id="the-fragmented-ecosystem">The fragmented ecosystem</h3>
+
+<p>The trajectory of scientific programming is interesting because it seems
+to be converging on a few tools from a historically fragmented and
+siloed ecosystem. Chemists, for example, use their particular flavors of
+modeling and analysis software (like Gaussian or ORCA), and Fortran is
+used for much of climate science. The fragmentation makes sense because
+of the wide range of applications that scientific programming must
+serve, including modeling, analysis, visualization, and instrument
+control. Furthermore, scientists are often not trained in programming,
+leading to large gaps in ability even within a single laboratory.</p>
+
+<p>These factors lead to several problems and realities within the
+programmatic scientific community. These include:</p>
+
+<ol>
+  <li>
+    <p><strong>Code that is often not reusable or readable across (or within) scientific disciplines.</strong> An example of this is the graduate student who writes software for their project, which nobody knows how to modify after they leave.</p>
+  </li>
+  <li>
+    <p><strong>Domain-specific applications that inhibit cross-disciplinary collaboration.</strong> This includes proprietary software that, while effective, is not shareable because of cost or underutilization. Barriers to entry exist also because only a subset of people learn how to use a particular piece of software and would-be collaborators use something different.</p>
+  </li>
+  <li>
+    <p><strong>Complicated old code that stalls development.</strong> Changing an old code base is a monumental task because the expertise that created the code has moved on. This is often the case with complex and large code bases that work, but nobody knows how. Making changes or sharing can require a complete rewrite.</p>
+  </li>
+</ol>
+
+<p>The problems are more apparent today because the frontiers of science
+are increasingly cross-disciplinary. Without shareable and reusable
+code, there is considerable friction when trying to collaborate<sup id="fnref:3"><a href="#fn:3" class="footnote" rel="footnote" role="doc-noteref">3</a></sup>.</p>
+
+<h3 id="convergence-to-open-source-tools">Convergence to open-source tools</h3>
+
+<p>Several technologies are now maturing and their convergence is solving
+some of these problems. The transition will take a long time —
+decades-old code bases need to be rewritten and new libraries need to be
+built — but I expect the scientific programming landscape to be very
+different ten years from now.</p>
+
+<p>The wide-spread adoption of Python, R, and Jupyter in the scientific
+community has solved many of the readability the share-ability
+problems<sup id="fnref:4"><a href="#fn:4" class="footnote" rel="footnote" role="doc-noteref">4</a></sup>. Many projects now bundle Jupyter notebooks to demonstrate
+how the code works. Python is easy to read, easy to write, and
+open-source, making it an obvious choice for many to replace proprietary
+analysis software. The interactive coding environment of Jupyter is also
+having a
+<a href="https://crd.lbl.gov/news-and-publications/news/2021/project-jupyter-a-computer-code-that-transformed-science/">major impact on scientific coding</a>. Someone reading a
+scientific paper no longer has to take the author’s word that the
+modeling and analysis are sound; they can go on GitHub and run the
+software themselves.</p>
+
+<p>A level above programming languages is apps for developing scientific
+software and doing analysis. There are a lot of apps out there, but a
+major component of development will use web technologies because of
+their inherent interoperability. Jupyter notebooks, for example, can be
+opened in the browser, meaning anyone can create and share something
+created in Jupyter without obscure or proprietary software. Jupyter can
+now also be used in <a href="https://code.visualstudio.com">Visual Studio Code</a>,
+the popular, flexible, and rapidly-improving editor that is based on the
+web-technology platform, Electron.</p>
+
+<p>The growing popularity of web technologies in science foreshadows the
+biggest change on the horizon, the move to cloud-based computing.</p>
+
+<h3 id="cloud-based-computing-for-science">Cloud-based computing for science</h3>
+
+<p>Mobile devices are finally powerful and flexible enough that most
+people’s primary computing device is a smartphone. If this is the case,
+then one might think that they must be powerful enough for scientific
+applications. So, where are all of these great tools?</p>
+
+<p>Ever since the iPad Pro came out in 2018<sup id="fnref:5"><a href="#fn:5" class="footnote" rel="footnote" role="doc-noteref">5</a></sup>, I have been searching for
+ways to fit it into my research workflow. So far, the best use-case for
+it is reading and annotating journal articles. This great, but nowhere
+near the mobile computing workstation I outlined above. The reason I
+still cannot do analysis or share a simulation on an iPad is that
+Python, Jupyter, an editor, graphing software, etc. are not available
+for it — and my iPad is faster and more powerful (in many respects) than
+my Mac<sup id="fnref:6"><a href="#fn:6" class="footnote" rel="footnote" role="doc-noteref">6</a></sup>.</p>
+
+<p>As I look around for solutions, it seems that the answer is to wait for
+cloud-based development to mature. Jupyter already has notebooks in the
+cloud via <a href="https://jupyterhub.readthedocs.io/en/stable/">JupyterHub</a>. A
+service called <a href="https://mybinder.org">Binder</a> promises to host notebook
+repositories and make code “immediately reproducible by anyone,
+anywhere”. Github will soon debut its
+<a href="https://github.com/features/codespaces">Codespaces</a> cloud platform, and
+the Julia community (a promising open-source scientific programming
+language) has put their resources into Jupyter and VS Code. Julia
+Computing has also introduced <a href="https://juliahub.com">JuliaHub</a>, Julia’s
+answer to cloud computing. Legacy tools for science trying to stay
+relevant are also moving to the cloud (see MatLab in the cloud,
+Mathematica Online, etc.). Any app or platform that does not make the
+move will likely become irrelevant as code-bases transition.</p>
+
+<p>There are no mobile-first solutions from any of the major players in
+scientific software despite the incredible progress in mobile
+hardware<sup id="fnref:7"><a href="#fn:7" class="footnote" rel="footnote" role="doc-noteref">7</a></sup>. Today I can write and run my software in a first-generation
+cloud-based environment or switch to my traditional computing
+workstation.</p>
+
+<h3 id="conclusion">Conclusion</h3>
+
+<p>What lies ahead for scientific programming? Maybe Julia will continue
+its meteoric trajectory and become the <em>de facto</em> programming language
+for science and scientific papers will come attached with Jupyter
+notebooks. Maybe code will become so easy to share and reuse that the
+niche and proprietary software that keeps the disciplines siloed will
+become obsolete. These would be huge changes for the scientific
+community, but I think any of these kinds of changes in the software
+space are compounded by the coming cloud computing shift. Scientific
+development will happen in the cloud and code will be more reproducible
+and shareable than it is today as a result.</p>
+
+<p>This future is different from the mobile computing world that I
+imagined, where devices would shrink and simultaneously become powerful
+enough that a thin computing slab empowered by a suite of on-device
+scientific tools could fulfill most of my computing needs. Instead, the
+mobile device will become a window to servers that will host my
+software. Reproducible and reusable code will proliferate as a result,
+but where does that leave the raw power of mobile computing devices?</p>
+
+<hr class="ref" />
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1">
+      <p>This just became possible with the Moku devices coming out of <a href="https://liquidinstruments.com">Liquid Instruments</a>. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>See the <a href="https://sixcolors.com/post/2021/08/not-important-enough-1password-abandons-its-native-mac-app">current controversy</a> over <a href="https://blog.1password.com/1password-8-for-mac-is-now-in-early-access/">OnePassword choosing to make their macOS app using Electron</a> instead of one of Apple’s frameworks. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:3">
+      <p>Katharine Hyatt describes these problems in the first few minutes of <a href="https://youtu.be/4giNd6HLUQg">an excellent talk</a> on using Julia for Quantum Physics. <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:4">
+      <p>Another potential avenue for convergence is the ascent of the Julia open-source programming language, which promises to replace both high-performance code, higher-level analysis software, while making code reuse easy and natural. The language is still far from any sort of standard, but there are promising <a href="https://www.nature.com/articles/d41586-019-02310-3">examples of its use</a>. <a href="#fnref:4" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:5">
+      <p>The iPad is, unfortunately, the only real contender in the mobile platform space. The Android ecosystem has not yet come up with a serious competitor that matches the performance of the iPad. <a href="#fnref:5" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:6">
+      <p>Specifically, Apple does not allow code execution on its mobile operating systems. <a href="#fnref:6" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:7">
+      <p>A great <a href="https://twitter.com/stevesi/status/1240327411478061056?s=21">Twitter thread by Steven Sinofsky</a>, former head of Windows, details the evolution of computing devices. <a href="#fnref:7" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+    
+<hr>
+
+
+    
+</main>
+
+<footer>
+    <a href="/feed.xml">Site RSS feed</a>.<br>
+	<p>©2021&ndash;2025 Garrek Stemo</p>
+</footer>
