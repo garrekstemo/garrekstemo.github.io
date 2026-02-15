@@ -18,8 +18,8 @@ eleventyExcludeFromCollections: true
         {
             "id": "{{ site.url }}{{ post.url }}",
             "url": "{{ site.url }}{{ post.url }}",
-            "title": {{ post.data.title | dump }},
-            "content_html": {{ post.content | dump }},
+            "title": {{ post.data.title | dump | safe }},
+            "content_html": {{ post.content | dump | safe }},
             "date_published": "{{ post.date | date("iso") }}"
         }{% if not loop.last %},{% endif %}
         {%- endfor %}
