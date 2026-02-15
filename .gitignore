@@ -2,7 +2,6 @@ _drafts/
 
 ### Node ###
 node_modules/
-package-lock.json
 
 ### Eleventy ###
 _site/
