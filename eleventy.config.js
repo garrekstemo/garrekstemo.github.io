@@ -62,7 +62,6 @@ module.exports = function (eleventyConfig) {
   // Passthrough copy — static assets
   eleventyConfig.addPassthroughCopy("src/css");
   eleventyConfig.addPassthroughCopy("src/assets");
-  eleventyConfig.addPassthroughCopy("src/CNAME");
 
   // Date filter — matches Jekyll's '%A, %B %d %Y' format
   eleventyConfig.addFilter("date", function (dateObj, format) {
