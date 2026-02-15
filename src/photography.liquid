@@ -1,0 +1,13 @@
+---
+layout: layouts/gallery.liquid
+title: Photography
+permalink: /photography/
+---
+
+<h2>Photography</h2>
+
+<div class="photo-grid">
+    {% for photo in collections.photos %}
+    <img src="{{ photo }}" alt="Photo">
+    {% endfor %}
+</div>
