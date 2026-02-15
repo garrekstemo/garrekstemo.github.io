@@ -4,8 +4,11 @@ title: Writing
 permalink: /writing/
 ---
 
+<div class="page-title">
 <h2>Writing</h2>
+</div>
 
+<div class="page-body">
 {% for yearPair in collections.postsByYear %}
     {% assign year = yearPair[0] %}
     {% assign yearPosts = yearPair[1] %}
@@ -19,3 +22,4 @@ permalink: /writing/
     {% endfor %}
     </ul>
 {% endfor %}
+</div>
