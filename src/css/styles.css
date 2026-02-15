@@ -57,10 +57,36 @@
     grid-template-columns: minmax(0, 1fr);
 }
 
-/* Hide left navigation for smaller screens */
+/* Horizontal navigation for smaller screens */
 @media (max-width: 640px) {
     nav {
-        display: none;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        padding: 0.5em 0;
+    }
+    nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.2em 1em;
+        padding: 0;
+        margin: 0;
+    }
+    nav li {
+        list-style: none;
+        font-family: "Courier Prime", "Courier New", Courier, monospace;
+        font-size: 1em;
+        font-weight: 300;
+        -webkit-font-smoothing: antialiased;
+    }
+    nav a {
+        text-decoration: none;
+    }
+    nav a:hover {
+        text-decoration: underline;
+        text-decoration-thickness: 1px;
+        text-underline-offset: 0.15em;
     }
 }
 
