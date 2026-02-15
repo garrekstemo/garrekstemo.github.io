@@ -350,7 +350,7 @@ footer {
 		color: #d0d0d0;
 	}
 	h1, h2, h3, h4, h5, h6 {
-		color: #b0b0b0;
+		color: #d4795a;
 	}
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 		color: currentColor;
@@ -380,7 +380,7 @@ footer {
         border-color: #555;
     }
 
-	nav a { color: #e8e8e8; }
+	nav a { color: #5aafe6; }
 	nav a:hover { color: #e8734f; }
 	footer { color: #818181 }
 	figcaption { color: #e8e8e8; }
