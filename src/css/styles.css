@@ -147,7 +147,7 @@ pre {
     break-inside: avoid;
     border: 1px solid;
     border-radius: 10px;
-    /* border-left: 3px solid #0a84ff; */
+    /* border-left: 3px solid #1478d4; */
     /* box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; */
 }
 
@@ -389,7 +389,7 @@ footer {
 
 	a {
 		color: #d0d0d0;
-		text-decoration-color: #3498d8;
+		text-decoration-color: #2090e0;
 	}
 	a:hover {
 		color: #d0d0d0;
@@ -397,7 +397,7 @@ footer {
 	}
 
     blockquote {
-        border-color: #3498d8;
+        border-color: #2090e0;
     }
 
     pre {
@@ -425,14 +425,14 @@ footer {
 		color: #e8e8e8;
 	}
     #masthead h1 a:hover {
-        color: #818181;
+        color: #e8734f;
     }
 
     .dateline{ 
         color:#e8e8e8;
     }
     .footnote {
-        color: #3498d8;
+        color: #2090e0;
     }
 }
 
@@ -450,7 +450,7 @@ footer {
 
 	a {
 		color: #202020;
-		text-decoration-color: #1a9fff;
+		text-decoration-color: #2090e0;
     }
 
 	a:hover {
@@ -463,11 +463,11 @@ footer {
 	}
 
     blockquote {
-        border-color: #1a9fff;
+        border-color: #2090e0;
     }
     
-	nav { color: #0a84ff; }
-	nav a { color: #0a84ff; }
+	nav { color: #1478d4; }
+	nav a { color: #1478d4; }
 	nav a:hover {
 		color: #e05a3a;
 		text-decoration-color: #e05a3a;
@@ -484,7 +484,7 @@ footer {
 	figcaption{color: #555;}
 	
 	.permalinkanchor {
-		color: #0a84ff;}
+		color: #1478d4;}
 
     a.permalinkanchor:hover {
         color:#e05a3a
@@ -495,12 +495,12 @@ footer {
 		color: #000;
 	}
     #masthead h1 a:hover {
-        color: #818181
+        color: #e05a3a;
     }
     .dateline{
         color:#434343;
     }
     .footnote {
-        color: #0a84ff;
+        color: #1478d4;
     }
 }
