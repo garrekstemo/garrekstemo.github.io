@@ -1,4 +1,27 @@
 /* ----------------------------------------------------------------------- */
+/* 						    Font Faces      							   */
+/* ----------------------------------------------------------------------- */
+
+@font-face {
+    font-family: "Libre-Baskerville";
+    font-weight: 400;
+    font-style: normal;
+    src: local("Libre-Baskerville"), url(/assets/fonts/Libre-Baskerville/LibreBaskerville-Regular.otf) format("opentype");
+}
+@font-face {
+    font-family: "Libre-Baskerville";
+    font-weight: 400;
+    font-style: italic;
+    src: local("Libre-Baskerville"), url(/assets/fonts/Libre-Baskerville/LibreBaskerville-Italic.otf) format("opentype");
+}
+@font-face {
+    font-family: "Libre-Baskerville";
+    font-weight: 700;
+    font-style: normal;
+    src: local("Libre-Baskerville"), url(/assets/fonts/Libre-Baskerville/LibreBaskerville-Bold.otf) format("opentype");
+}
+
+/* ----------------------------------------------------------------------- */
 /* 						Site Structure									   */
 /* ----------------------------------------------------------------------- */
 
@@ -97,7 +120,7 @@ main {
 	grid-area: content;
     margin: 0;
     padding: 0;
-    max-width: 100%
+    max-width: 100%;
 }
 
 blockquote {
@@ -124,7 +147,7 @@ pre {
     break-inside: avoid;
     border: 1px solid;
     border-radius: 10px;
-    /* border-left: 3px solid #0082c7; */
+    /* border-left: 3px solid #0a84ff; */
     /* box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; */
 }
 
@@ -185,13 +208,6 @@ h1 a:hover, h2 a:hover, h3 a:hover {
     text-underline-offset: -0.2em;
 }
 
-/* Link articles */
-article.link header h2 a,
-article.link header h2 a:active,
-article.link header h2 a:visited {
-	text-decoration: underline;
-}
-
 div[role="doc-endnotes"] {
 	font-family: "Apple Symbols", Verdana, sans-serif
 }
@@ -202,7 +218,7 @@ hr {
     width: 100%;
     outline: none;
     border: 0 none;
-    background-color: #056baa;
+    background-color: #e05a3a;
     margin-top: 4em;
     margin-bottom: 4em;
 }
@@ -210,7 +226,7 @@ hr {
 .ref {
     height: 1px;
     width: 20%;
-    background-color:#0b95df;
+    background-color:#e05a3a;
     border: 0;
     outline: none;
     margin-top: 2em;
@@ -222,12 +238,6 @@ hr {
 /* ----------------------------------------------------------------------- */
 /* 						Figures and Images								   */
 /* ----------------------------------------------------------------------- */
-
-.photo-page {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 1rem;
-}
 
 .photo-grid {
     display: grid;
@@ -334,16 +344,6 @@ footer {
 /* 						id Definitions									   */
 /* ----------------------------------------------------------------------- */
 
-#listessays li {
-	list-style-type: none;
-}
-#listessays a {
-	text-decoration: none;
-}
-#listessays a:hover {
-	text-decoration: underline;
-}
-
 /* Site Mast */
 #masthead {
 	text-align: left;
@@ -384,16 +384,16 @@ footer {
 	}
 	
 	h1 a:hover, h2 a:hover, h3 a:hover {
-        text-decoration-color: #056baa;
+        text-decoration-color: #e8734f;
 	}
-	
+
 	a {
 		color: #d0d0d0;
 		text-decoration-color: #3498d8;
 	}
 	a:hover {
 		color: #d0d0d0;
-        text-decoration-color: #056baa;
+        text-decoration-color: #e8734f;
 	}
 
     blockquote {
@@ -408,7 +408,7 @@ footer {
     }
 
 	nav a { color: #e8e8e8; }
-	nav a:hover { color: #3498d8; }
+	nav a:hover { color: #e8734f; }
 	footer { color: #818181 }
 	figcaption { color: #e8e8e8; }
 
@@ -416,16 +416,8 @@ footer {
 		color: #e8e8e8;}
 
     a.permalinkanchor:hover {
-        color:#3498d8;
+        color:#e8734f;
     }
-
-	#listessays a {
-		color: #e8e8e8;
-		text-decoration: none;
-	}
-	#listessays a:hover { 
-		color: #3498d8;
-	}
 
 	#masthead h1 a,
 	#masthead h1 a:active,
@@ -445,7 +437,7 @@ footer {
 }
 
 @media (prefers-color-scheme: light) {
-	* { background-color: #fcf5ef; }
+	* { background-color: #ffffff; }
 	body { color: #202020; }
 	h1 { color: #000; }
 	h2 { color: #000; }
@@ -458,27 +450,27 @@ footer {
 
 	a {
 		color: #202020;
-		text-decoration-color: #0b95df;
+		text-decoration-color: #1a9fff;
     }
 
 	a:hover {
 		color: #202020;
-		text-decoration-color: #1cc5f9;
+		text-decoration-color: #e05a3a;
 	}
 
     h1 a:hover, h1 a:hover, h2 a:hover, h3 a:hover, h6 a:hover {
-        text-decoration-color: #1cc5f9;
+        text-decoration-color: #e05a3a;
 	}
 
     blockquote {
-        border-color: #0b95df;
+        border-color: #1a9fff;
     }
     
-	nav { color: #0082c7; }
-	nav a { color: #0082c7; }
+	nav { color: #0a84ff; }
+	nav a { color: #0a84ff; }
 	nav a:hover {
-		color: #1cc5f9;
-		text-decoration-color: #0b95df;
+		color: #e05a3a;
+		text-decoration-color: #e05a3a;
 	}
 
     pre {
@@ -492,17 +484,12 @@ footer {
 	figcaption{color: #555;}
 	
 	.permalinkanchor {
-		color: #0082c7;}
+		color: #0a84ff;}
 
     a.permalinkanchor:hover {
-        color:#1cc5f9
+        color:#e05a3a
     }
 	
-	#listessays li {
-		color: #000;
-	}
-	#listessays a { color: #000; }
-	#listessays a:hover { color: #0d5f83; }
 	#masthead h1 a,
 	#masthead h1 a:visited {
 		color: #000;
@@ -514,43 +501,6 @@ footer {
         color:#434343;
     }
     .footnote {
-        color: #0082c7;
+        color: #0a84ff;
     }
 }
-
-
-/* ----------------------------------------------------------------------- */
-/* 						    Font Faces      							   */
-/* ----------------------------------------------------------------------- */
-
-@font-face {
-    font-family: "Libre-Baskerville";
-    font-weight: 400;
-    font-style: normal;
-    src: local("Libre-Baskerville"), url(/assets/fonts/Libre-Baskerville/LibreBaskerville-Regular.otf) format("opentype");
-}
-@font-face {
-    font-family: "Libre-BaskervilleItalic";
-    font-weight: 400;
-    font-style: italic;
-    src: local("Libre-Baskerville"), url(/assets/fonts/Libre-Baskerville/LibreBaskerville-Italic.otf) format("opentype");
-}
-@font-face {
-    font-family: "Libre-BaskervilleBold";
-    font-style: bold;
-    src: local("Libre-Baskerville"), url(/assets/fonts/Libre-Baskerville/LibreBaskerville-Bold.otf) format("opentype");
-}
-
-/* 
-@font-face {
-    font-family: "SkolarPE";
-    font-weight: 400;
-    font-style: normal;
-    src: local("SkolarPE-Rg"), url(/assets/fonts/SkolarPETRIAL/SkolarPETRIAL-Rg.otf) format("opentype");
-}
-@font-face {
-    font-family: "SkolarPE-It";
-    font-weight: 400;
-    font-style: italic;
-    src: local("SkolarPE-It"), url(/assets/fonts/SkolarPETRIAL/SkolarPETRIAL-It.otf) format("opentype");
-} */
