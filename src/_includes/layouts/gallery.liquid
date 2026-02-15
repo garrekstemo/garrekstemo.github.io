@@ -2,13 +2,16 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Garrek.org</title>
+  <title>{{ site.title }}</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="/css/styles.css">
   {% include 'head.liquid' %}
 </head>
 <body class="wrapper wrapper-photo">
+<header class="site-header">
+    <a href="/" class="site-title">{{ site.title }}</a>
+</header>
 {% include 'navigation.liquid' %}
 
 
