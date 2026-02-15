@@ -53,10 +53,19 @@
 /* Site title */
 .site-title {
     font-family: "Libre-Baskerville", "Georgia", "Times New Roman", serif;
-    font-size: 1.8em;
+    font-size: 1.6em;
     font-weight: 400;
     text-decoration: none;
     display: block;
+}
+
+.site-header {
+    padding-bottom: 0.8em;
+    margin-bottom: 0.5em;
+    border-bottom: 1px solid;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 /* Default: mobile layout */
@@ -139,9 +148,9 @@
 
     nav {
         grid-column: 1;
-        grid-row: 3;
+        grid-row: 2 / 4;
         position: sticky;
-        top: 1em;
+        top: 4em;
         align-self: start;
         margin-top: 0;
         margin-bottom: 0;
@@ -244,15 +253,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	font-size: 3em;
+	font-size: 2em;
 	font-weight: 700;
 }
 h2 {
-	font-size: 2em;
+	font-size: 1.5em;
     line-height: 1.4em;
 }
 h3 {
-	font-size: 1.5em;
+	font-size: 1.25em;
     margin-top: 1.5em;
     margin-bottom: 1em;
 }
@@ -297,7 +306,7 @@ hr {
     width: 100%;
     outline: none;
     border: 0 none;
-    background-color: #e05a3a;
+    background-color: #2090e0;
     margin-top: 4em;
     margin-bottom: 4em;
 }
