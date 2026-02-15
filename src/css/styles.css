@@ -31,7 +31,6 @@
     gap: 20px;
     grid-template-columns: minmax(0, 1fr);  /* Prevents text blowing out of the grid column */
     grid-template-areas:
-        "header"
         "content"
         "footer";
 }
@@ -47,8 +46,8 @@
 @media (min-width: 640px) {
 	.wrapper {
         grid-template-columns: 180px minmax(0, 2fr);
+		column-gap: 40px;
 		grid-template-areas:
-			".        header"
 			"nav      content"
 			"footer   footer";
 		box-sizing: border-box;
@@ -66,12 +65,12 @@
         margin-bottom: 0;
         margin-right: auto;
         margin-left: auto;
-        padding: 0 50px 0 0;
+        padding: 0;
 	}
 	nav li {
 		display: block;
-        font-family: Helvetica, "Helvetica Neue", Verdana, sans-serif;
-        font-size: 1.5em;
+        font-family: "Courier Prime", "Courier New", Courier, monospace;
+        font-size: 1.2em;
         line-height: 1.6em;
         font-weight: 400;
 		text-align: right;
@@ -88,10 +87,6 @@
 }
 
 /* ----------------------------------------------------------------------- */
-
-.main-head {
-	grid-area: header;
-}
 
 .permalinkanchor {
 	font-family: "Apple Symbols", "Menlo";
@@ -337,33 +332,8 @@ footer {
     justify-content: space-between;
     margin-top: 4em;
     margin-bottom: 2em;
-    font-family: Helvetica, "Helvetica Neue", Verdana, sans-serif;
+    font-family: "Courier Prime", "Courier New", Courier, monospace;
 }
-
-/* ----------------------------------------------------------------------- */
-/* 						id Definitions									   */
-/* ----------------------------------------------------------------------- */
-
-/* Site Mast */
-#masthead {
-	text-align: left;
-    padding-top: 3em;
-}
-#masthead h1 {
-	font-weight: 300;
-	font-size: 2.4em;
-    margin: 0;
-	padding-top: .5em;
-
-}
-#masthead h1 a,
-#masthead h1 a:active,
-#masthead h1 a:visited {
-	text-decoration: none;
-}
-
-#masthead p { margin: 0; padding: 0;}
-
 
 /* ----------------------------------------------------------------------- */
 /* 						Color settings									   */
@@ -419,16 +389,7 @@ footer {
         color:#e8734f;
     }
 
-	#masthead h1 a,
-	#masthead h1 a:active,
-	#masthead h1 a:visited {
-		color: #e8e8e8;
-	}
-    #masthead h1 a:hover {
-        color: #e8734f;
-    }
-
-    .dateline{ 
+    .dateline{
         color:#e8e8e8;
     }
     .footnote {
@@ -490,13 +451,6 @@ footer {
         color:#e05a3a
     }
 	
-	#masthead h1 a,
-	#masthead h1 a:visited {
-		color: #000;
-	}
-    #masthead h1 a:hover {
-        color: #e05a3a;
-    }
     .dateline{
         color:#434343;
     }
