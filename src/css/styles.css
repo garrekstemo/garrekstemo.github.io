@@ -96,6 +96,9 @@
     nav {
         grid-column: 1;
         grid-row: 2;
+        position: sticky;
+        top: 1em;
+        align-self: start;
         margin-top: 0;
         margin-bottom: 0;
         margin-right: auto;
