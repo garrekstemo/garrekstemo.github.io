@@ -8,4 +8,16 @@ layout: layouts/default.liquid
 </div>
 <div class="page-body">
     {{ content }}
+
+    <div class="post-subscribe">
+        <p>Get new posts by email:</p>
+        <form
+            action="https://buttondown.com/api/emails/embed-subscribe/garrek"
+            method="post"
+            class="newsletter-form"
+        >
+            <input type="email" name="email" placeholder="your@email.com" required />
+            <button type="submit">Subscribe</button>
+        </form>
+    </div>
 </div>

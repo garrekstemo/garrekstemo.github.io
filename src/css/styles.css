@@ -63,6 +63,22 @@
     padding-bottom: 0.8em;
     margin-bottom: 0.5em;
     border-bottom: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.subscribe-btn {
+    font-family: "Courier Prime", "Courier New", Courier, monospace;
+    font-size: 0.85em;
+    padding: 0.4em 0.8em 0.2em;
+    border: 1px solid;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.subscribe-btn:hover {
+    text-decoration: none;
 }
 
 /* Default: mobile layout */
@@ -404,6 +420,43 @@ footer {
 }
 
 /* ----------------------------------------------------------------------- */
+/* 						Newsletter form									   */
+/* ----------------------------------------------------------------------- */
+
+.newsletter-form {
+    display: flex;
+    gap: 0.5em;
+    margin-bottom: 1em;
+}
+
+.newsletter-form input[type="email"] {
+    font-family: "Lyon Text", "Georgia", "Times New Roman", serif;
+    font-size: 1em;
+    padding: 0.4em 0.6em;
+    border: 1px solid;
+    border-radius: 4px;
+    flex: 1;
+    max-width: 280px;
+}
+
+.newsletter-form button {
+    font-family: "Courier Prime", "Courier New", Courier, monospace;
+    font-size: 1em;
+    padding: 0.4em 1em;
+    border: 1px solid;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.post-subscribe {
+    margin-top: 3em;
+    padding-top: 1.5em;
+    border-top: 1px solid;
+}
+
+
+
+/* ----------------------------------------------------------------------- */
 /* 						Color settings									   */
 /* ----------------------------------------------------------------------- */
 
@@ -462,6 +515,33 @@ footer {
     }
     .footnote {
         color: #2090e0;
+    }
+    .newsletter-form input[type="email"] {
+        color: #d0d0d0;
+        border-color: #555;
+    }
+    .newsletter-form input[type="email"]::placeholder {
+        color: #818181;
+    }
+    .newsletter-form button {
+        color: #15252b;
+        background-color: #5aafe6;
+        border-color: #5aafe6;
+    }
+    .newsletter-form button:hover {
+        background-color: #e8734f;
+        border-color: #e8734f;
+    }
+    .post-subscribe {
+        border-color: #555;
+    }
+    .subscribe-btn {
+        color: #5aafe6;
+        border-color: #5aafe6;
+    }
+    .subscribe-btn:hover {
+        color: #e8734f;
+        border-color: #e8734f;
     }
 }
 
@@ -524,5 +604,32 @@ footer {
     }
     .footnote {
         color: #1478d4;
+    }
+    .newsletter-form input[type="email"] {
+        color: #202020;
+        border-color: #ddd;
+    }
+    .newsletter-form input[type="email"]::placeholder {
+        color: #999;
+    }
+    .newsletter-form button {
+        color: #ffffff;
+        background-color: #2090e0;
+        border-color: #2090e0;
+    }
+    .newsletter-form button:hover {
+        background-color: #e05a3a;
+        border-color: #e05a3a;
+    }
+    .post-subscribe {
+        border-color: #ddd;
+    }
+    .subscribe-btn {
+        color: #2090e0;
+        border-color: #2090e0;
+    }
+    .subscribe-btn:hover {
+        color: #e05a3a;
+        border-color: #e05a3a;
     }
 }
